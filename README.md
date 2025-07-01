@@ -18,7 +18,7 @@ Ainda estou praticando essas técnicas para aprimorar minhas habilidades, mas no
 - Seta ao final do portfólio para voltar ao topo da página
 
 ## Projeto online
-Acesse [aqui.]()
+Acesse [aqui.](https://luciane003.github.io/Portfolio-luciane/)
 
 ## Tecnologias utilizadas
  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
