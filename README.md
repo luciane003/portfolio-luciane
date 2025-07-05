@@ -25,8 +25,18 @@ Acesse [aqui.](https://luciane003.github.io/portfolio-luciane/)
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div><br>
 
-## Visualização 
-![Visualização do projeto]()
+<h2 align="center">Página inicial do meu portfólio</h2>
+
+<p align="center">
+  <strong>Visual completo (print direto da tela)</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <strong>Visual com mockup</strong>
+</p>
+
+<p align="center">
+  <img src="./src/design/portfolio-tela-inicial.png" alt="Página inicial" width="45%">
+  &nbsp;&nbsp;&nbsp;
+  <img src="./src/design/mockup-tela-inicial-portfolio.png" alt="Mockup da página inicial" width="45¨%">
+</p>
 
 ## Autora
 - Luciane Kellen
