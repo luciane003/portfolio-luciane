@@ -25,17 +25,14 @@ Acesse [aqui.](https://luciane003.github.io/portfolio-luciane/)
   <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
 </div><br>
 
-<h2 align="center">Página inicial do meu portfólio</h2>
+## Tela inicial do meu portfólio
 
 <p align="center">
-  <strong>Visual completo (print direto da tela)</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <strong>Visual com mockup</strong>
+  <img src="./src/design/mockup-tela-inicial-portfolio.png" alt="Mockup da página inicial" width="60%">
 </p>
 
 <p align="center">
-  <img src="./src/design/portfolio-tela-inicial.png" alt="Página inicial" width="45%">
-  &nbsp;&nbsp;&nbsp;
-  <img src="./src/design/mockup-tela-inicial-portfolio.png" alt="Mockup da página inicial" width="45¨%">
+  <em>Mockup mostrando a página inicial do meu portfólio, desenvolvido com HTML e CSS.</em>
 </p>
 
 ## Autora
