@@ -415,7 +415,7 @@ body {
 }
 
 .icone:hover {
-    background-color: #c0a8ff;;
+    background-color: #c0a8ff;
     transform: scale(1.05);
     transition: background-color 0.3s, transform 0.3s;
 }
@@ -427,7 +427,8 @@ body {
 .git i,
 .github i,
 .html5 i,
-.css3 i {
+.css3 i,
+.javascript i {
     font-size: 7rem;
 }
 
@@ -441,6 +442,10 @@ body {
 
 .css3 {
     color: #1572B6;
+}
+
+.javascript {
+    color: #c9b700;
 }
 
 .nomes-icones {
