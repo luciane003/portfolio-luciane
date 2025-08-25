@@ -347,7 +347,8 @@
     .git i,
     .github i,
     .html5 i,
-    .css3 i {
+    .css3 i,
+    .javascript i {
         font-size: 5rem;
     }
 
@@ -481,7 +482,8 @@
     .git i,
     .github i,
     .html5 i,
-    .css3 i {
+    .css3 i,
+    .javascript i {
         font-size: 4rem;
     }
 
