@@ -10,12 +10,12 @@ Ainda estou praticando essas técnicas para aprimorar minhas habilidades, mas no
 
 ## Funcionalidades
 - Layout responsivo, adaptável a diferentes tamanhos de tela  
-- Desenvolvido com HTML e CSS  
+- Desenvolvido com HTML, CSS e JavaScript  
 - Navegação que direciona às seções ao clicar nos links
+- Botão ao lado direito do portfólio para voltar ao topo da página
 - Links para acessar os projetos no GitHub e versões online
 - Links para visualizar meus certificados
 - Seção com meus contatos e informações para conhecer melhor minha trajetória     
-- Seta ao final do portfólio para voltar ao topo da página
 
 ## Projeto online
 Acesse [aqui.](https://luciane003.github.io/portfolio-luciane/)
@@ -24,6 +24,7 @@ Acesse [aqui.](https://luciane003.github.io/portfolio-luciane/)
 <div>
  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+ <img align="center" alt="javascript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
 </div><br>
 
 ## Tela inicial do meu portfólio
@@ -33,7 +34,7 @@ Acesse [aqui.](https://luciane003.github.io/portfolio-luciane/)
 </p>
 
 <p align="center">
-  <em>Mockup mostrando a página inicial do meu portfólio, desenvolvido com HTML e CSS.</em>
+  <em>Mockup mostrando a página inicial do meu portfólio, desenvolvido com HTML, CSS e JavaScript.</em>
 </p>
 
 ## Autora
