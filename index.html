@@ -67,6 +67,7 @@
                 <img src="./src/imagens/seta-baixo.svg" alt="Seta para baixo">
             </div>
         </div>
+
     </header>
 
     <main>
@@ -74,10 +75,10 @@
             <h2 class="subtitulo sobre-mim">Sobre mim</h2>
             <div class="resumo resumo-sobre-mim">
                 <p class="texto">
-                    👩‍💻Olá, meu nome é Luciane Kellen, sou Desenvolvedora Frontend Júnior, com foco em HTML, CSS e
-                    principalmente em consolidar minhas habilidades em JavaScript. Já tive contato com TypeScript
-                    durante o curso DevQuest e, em breve, pretendo aplicar React e TypeScript em novos projetos.
-                    Atualmente, trabalho na indústria, mas estou em transição de carreira para a área de tecnologia.
+                    👩‍💻 Olá! Sou Luciane Kellen, Desenvolvedora Frontend Júnior. Tenho experiência com HTML, CSS e
+                    JavaScript, já trabalhei com TypeScript e atualmente estudo React e TailwindCSS. Estou em transição
+                    de carreira para tecnologia, buscando oportunidades para criar projetos reais e evoluir como
+                    front-end developer.
                 </p>
             </div>
             <h2 class="subtitulo minha-jornada">Minha jornada</h2>
@@ -111,7 +112,57 @@
         <section id="projetos" class="secao projetos">
             <h2 class="subtitulo">Projetos</h2>
             <div class="lista-projetos">
-                <div class="cartao projeto">
+                <div class="cartao projeto animacao-scroll">
+                    <img src="./src/imagens/mockup-storemix-react.png"
+                        alt="Mockup de storemix-react com layout responsivo" loading="lazy">
+                    <div class="informacoes-projeto">
+                        <h3 class="titulo-projeto">StoreMix</h3>
+                        <p class="texto-projeto">
+                            Aplicação front-end de loja virtual com funcionalidades de e-commerce.
+                            Permite visualizar produtos, acessar detalhes, selecionar quantidade e adicionar itens ao
+                            carrinho.
+                            O carrinho exibe os produtos adicionados, permite remover itens e calcula o valor total da
+                            compra, com feedback visual para as ações do usuário.
+                        </p>
+                        <h4 class="titulo-tecnologia">Tecnologias</h4>
+                        <div class="icones-tecnologia">
+                            <div class="html5-icone">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="css3-icone">
+                                <i class="fab  fa-css3-alt"></i>
+                            </div>
+
+                            <div class="js-icone">
+                                <i class="fab fa-js"></i>
+                            </div>
+
+                            <div class="react-icone">
+                                <i class="fab fa-react"></i>
+                            </div>
+
+                            <div class="ts-icone">
+                                <img src="./src/icones/typescript-original.svg" alt="TypeScript">
+                            </div>
+
+                            <div class="tailwind-icone">
+                                <img src="./src/icones/tailwindcss-original.svg" alt="Tailwind CSS">
+                            </div>
+                        </div>
+                        <ul class="links-projeto">
+                            <li class="link">
+                                <a href="https://luciane003.github.io/storemix-react/" target="_blank">Ver
+                                    projeto</a>
+                            </li>
+                            <li class="link">
+                                <a href="https://github.com/luciane003/storemix-react" target="_blank">Ver
+                                    repositório</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="cartao projeto animacao-scroll">
                     <img src="./src/imagens/mockup-gerador-de-ingressos.png"
                         alt="Mockup de gerador de ingressos com layout responsivo" loading="lazy">
                     <div class="informacoes-projeto">
@@ -147,13 +198,15 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto">
+                <div class="cartao projeto animacao-scroll">
                     <img src="./src/imagens/mockup-appNotas.png"
                         alt="Mockup de aplicativo de anotações com layout responsivo" loading="lazy">
                     <div class="informacoes-projeto">
                         <h3 class="titulo-projeto">NoteApp</h3>
                         <p class="texto-projeto">
-                            Aplicação de Anotações — Projeto desenvolvido com HTML, CSS e JavaScript, que permite criar anotações ilimitadas de forma simples e responsiva. O foco foi praticar lógica, manipulação do DOM e melhorar a organização do código JavaScript.
+                            Aplicação de Anotações — Projeto desenvolvido com HTML, CSS e JavaScript, que permite criar
+                            anotações ilimitadas de forma simples e responsiva. O foco foi praticar lógica, manipulação
+                            do DOM e melhorar a organização do código JavaScript.
                         </p>
                         <h4 class="titulo-tecnologia">Tecnologias</h4>
                         <div class="icones-tecnologia">
@@ -181,7 +234,7 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto">
+                <div class="cartao projeto projeto-extra animacao-scroll">
                     <img src="./src/imagens/mockup-lista-tarefas.png"
                         alt="Mockup de lista de tarefas com layout responsivo" loading="lazy">
                     <div class="informacoes-projeto">
@@ -218,7 +271,7 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto">
+                <div class="cartao projeto projeto-extra animacao-scroll">
                     <img src="./src/imagens/mockup-gerador-de-conselhos.png"
                         alt="Mockup da interface de login do projeto Gerador de Conselhos" loading="lazy">
                     <div class="informacoes-projeto">
@@ -254,7 +307,7 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto">
+                <div class="cartao projeto projeto-extra animacao-scroll">
                     <img src="./src/imagens/mockup-relogio-digital.png"
                         alt="Relógio digital mostrando hora e data com tema claro e escuro" loading="lazy">
                     <div class="informacoes-projeto">
@@ -289,7 +342,7 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto">
+                <div class="cartao projeto projeto-extra animacao-scroll">
                     <img src="./src/imagens/mockup-huddle-base.png"
                         alt="Mockup da interface de login do projeto Huddle Base" loading="lazy">
                     <div class="informacoes-projeto">
@@ -319,7 +372,7 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto">
+                <div class="cartao projeto projeto-extra animacao-scroll">
                     <img src="./src/imagens/mockup-tela-login.png"
                         alt="Mockup da interface de login do projeto Vuelvess" loading="lazy">
                     <div class="informacoes-projeto">
@@ -349,34 +402,53 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
+
+            <button id="btn-ver-mais" class="button">Ver mais projetos</button>
+
+            <button id="btn-ver-menos" class="button esconder">Ver menos projetos</button>
+
         </section>
 
         <section id="habilidades" class=" secao habilidades">
             <h3 class="subtitulo">Habilidades</h3>
             <div class="icones-habilidades">
-                <div class="icone git">
+                <div class="icone git animacao-scroll">
                     <i class="fab fa-git-alt"></i>
                     <h3 class="nomes-icones">GIT</h3>
                 </div>
-                <div class="icone github">
-                    <i class="fab fa-github"></i>
+                <div class="icone github animacao-scroll">
+                    <i class="fab fa-github animacao-scroll"></i>
                     <h3 class="nomes-icones">GITHUB</h3>
                 </div>
-                <div class="icone html5">
+                <div class="icone html5 animacao-scroll">
                     <i class="fab fa-html5"></i>
                     <h3 class="nomes-icones">HTML5</h3>
                 </div>
-                <div class="icone css3">
+                <div class="icone css3 animacao-scroll">
                     <i class="fab fa-css3-alt"></i>
                     <h3 class="nomes-icones">CSS3</h3>
                 </div>
-                <div class="icone javascript">
+                <div class="icone javascript animacao-scroll">
                     <i class="fab fa-js"></i>
                     <h3 class="nomes-icones">JavaScript</h3>
                 </div>
-
+                <div class="icone react animacao-scroll">
+                    <i class="fab fa-react"></i>
+                    <h3 class="nomes-icones">React</h3>
+                </div>
+                <div class="icone typescript animacao-scroll">
+                    <img src="./src/icones/typescript-original.svg" alt="Icone do TypeScript">
+                    <h3 class="nomes-icones">TypeScript</h3>
+                </div>
+                <div class="icone vite animacao-scroll">
+                    <img src="./src/icones/logo-vite.svg" alt="Icone do Vite">
+                    <h3 class="nomes-icones">Vite</h3>
+                </div>
+                <div class="icone tailwind animacao-scroll">
+                    <img src="./src/icones/tailwindcss-original.svg" alt="Icone do Tailwind">
+                    <h3 class="nomes-icones">Tailwind</h3>
+                </div>
             </div>
         </section>
 
@@ -408,6 +480,10 @@
         </section>
     </main>
 
+    <button id="btn-topo" class="esconder" aria-label="Voltar ao topo">
+        ˄
+    </button>
+
     <footer id="contatos" class="secao contatos">
         <h3 class="subtitulo contato">Contatos</h3>
         <div class="conteudo-rodape">
@@ -431,12 +507,8 @@
                 <p class="desenvolvido">Desenvolvido por Luciane Kellen | © 2025</p>
             </div>
         </div>
-        <a href="#topo" class="seta-topo" aria-label="Voltar ao topo">
-            <div class="imagem-seta">
-                <img src="./src/imagens/seta-cima.svg" alt="Voltar para o topo">
-            </div>
-        </a>
     </footer>
+    <script src="./src/javascript/index.js"></script>
 </body>
 
 </html>

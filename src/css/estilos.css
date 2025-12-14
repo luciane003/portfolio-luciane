@@ -1,6 +1,6 @@
 body {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.05em;
     background-color: #0D1117;
@@ -21,12 +21,12 @@ body {
 }
 
 .logo {
-   padding: 2rem 0 1rem 2rem;  
+    padding: 2rem 0 1rem 2rem;
 }
 
-.logo img{ 
+.logo img {
     width: 3rem;
-    height: auto; 
+    height: auto;
     border-radius: 50%;
 }
 
@@ -35,7 +35,7 @@ body {
     position: relative;
 }
 
-.navegacao ul{
+.navegacao ul {
     display: flex;
     list-style: none;
     text-decoration: none;
@@ -45,7 +45,7 @@ body {
 .navegacao ul li a {
     display: block;
     text-decoration: none;
-    background-color: #1f2a44; 
+    background-color: #1f2a44;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     color: #fff;
@@ -72,7 +72,7 @@ body {
 .btn-certificado a,
 .seta-topo:focus {
     outline: none;
-} 
+}
 
 .menu {
     display: none;
@@ -82,7 +82,7 @@ body {
 .hamburguer {
     width: 30px;
     height: 3px;
-    background-color:  #C9D1D9;
+    background-color: #C9D1D9;
     display: block;
     position: relative;
 }
@@ -93,7 +93,7 @@ body {
     position: absolute;
     width: 30px;
     height: 3px;
-    background-color:  #C9D1D9;
+    background-color: #C9D1D9;
     transition: 0.3s;
     display: block;
     left: 0;
@@ -109,7 +109,7 @@ body {
 
 #menu-hamburguer {
     display: none;
-} 
+}
 
 .apresentacao {
     display: flex;
@@ -125,8 +125,8 @@ body {
 
 .nome,
 .profissao {
-   color:  #a2d2ff;
-   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6); 
+    color: #a2d2ff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
 .nome {
@@ -140,7 +140,7 @@ body {
 }
 
 .saudacao {
-    color:  #d0bfff;
+    color: #d0bfff;
     font-size: 1.5rem;
     padding: 1em 2em 0 0;
     font-weight: 400;
@@ -151,7 +151,7 @@ body {
 .imagem-seta,
 .link,
 .icone {
-    background-color:  #d0bfff;
+    background-color: #d0bfff;
 }
 
 .btn-curriculo {
@@ -174,7 +174,7 @@ body {
 
 .btn-curriculo:focus-within,
 .link:focus-within {
-    outline: 2px solid #bfa6ff; 
+    outline: 2px solid #bfa6ff;
     outline-offset: 4px;
 }
 
@@ -182,7 +182,7 @@ body {
     text-decoration: none;
     color: #1f2a44;
     font-size: 1rem;
-    font-weight: 500; 
+    font-weight: 500;
 }
 
 .imagem-perfil {
@@ -242,7 +242,7 @@ body {
     font-weight: 600;
 }
 
-.sobremim .subtitulo{
+.sobremim .subtitulo {
     padding-bottom: 2rem;
 }
 
@@ -267,7 +267,7 @@ body {
 }
 
 .projetos {
-    padding: 2rem 4rem 0  4rem;
+    padding: 2rem 4rem 0 4rem;
 }
 
 .lista-projetos,
@@ -297,11 +297,11 @@ body {
     text-align: center;
     width: 26rem;
     height: 37rem;
-    padding: 17px; 
-    border-radius: 20px; 
+    padding: 17px;
+    border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-    border: 2px solid 	#d0bfff;
+    border: 2px solid #d0bfff;
 }
 
 .cartao:hover,
@@ -309,9 +309,28 @@ body {
     transform: translateY(-10px);
 }
 
-.projeto img{
+.projeto img {
     width: 25rem;
     height: auto;
+}
+
+.projeto-extra {
+    display: none;
+}
+
+.mostrar-projeto {
+    display: flex;
+}
+
+.animacao-scroll {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.animacao-scroll.aparecer {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .informacoes-projeto {
@@ -326,11 +345,11 @@ body {
 }
 
 .texto-projeto {
-    color: 	#d9dbf1;
+    color: #d9dbf1;
     font-size: 14px;
 }
 
-.titulo-tecnologia{
+.titulo-tecnologia {
     color: #b9a9f8;
     font-size: 15px;
 }
@@ -340,6 +359,12 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 20px;
+}
+
+.icones-tecnologia .ts-icone img,
+.icones-tecnologia .tailwind-icone img{
+    width: 20px;
+    height: 19px;
 }
 
 .html5-icone {
@@ -353,6 +378,11 @@ body {
 .js-icone {
     color: #F7DF1E;
 }
+
+.react-icone {
+    color: #61DAFB;
+}
+
 
 .titulo-link {
     font-size: 15px;
@@ -389,6 +419,42 @@ body {
     color: #1f2a44;
 }
 
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #30363d;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: transparent;
+    color: #58a6ff;;
+    transition: 
+        background-color 0.3s,
+        color 0.3s ease,
+        transfrom 0.2s ease;
+}
+
+.button:hover {
+    background-color: #58a6ff;
+    color: #0D1117;
+    transform: translatey(-2px);
+}
+
+.button:active {
+    transform: translateY(0);
+}
+
+.esconder {
+    display: none;
+}
+
+#btn-topo.esconder {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(10px);
+}
+
+
 .habilidades {
     padding: 2rem 4rem 0 4rem;
 }
@@ -403,7 +469,7 @@ body {
     transition: transform 0.3s ease;
 }
 
-.icone{
+.icone {
     width: 10rem;
     height: 10rem;
     display: flex;
@@ -428,7 +494,8 @@ body {
 .github i,
 .html5 i,
 .css3 i,
-.javascript i {
+.javascript i,
+.react i {
     font-size: 7rem;
 }
 
@@ -438,7 +505,7 @@ body {
 
 .html5 {
     color: #E34F26;
-} 
+}
 
 .css3 {
     color: #1572B6;
@@ -446,6 +513,17 @@ body {
 
 .javascript {
     color: #c9b700;
+}
+
+.react {
+    color: #61DAB5;
+}
+
+.icone.typescript img,
+.icone.vite img,
+.icone.tailwind img {
+    width: 6.5rem;
+    height: auto;
 }
 
 .nomes-icones {
@@ -480,7 +558,7 @@ body {
     max-width: 100%;
     padding: 0 2rem 0 2rem;
     border-radius: 20px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.7);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
@@ -496,12 +574,12 @@ body {
     height: auto;
 }
 
-.nome-certificado{
-    color:  #ffffff;
+.nome-certificado {
+    color: #ffffff;
 }
 
 .texto-certificado {
-    color:  #c9d1d9;
+    color: #c9d1d9;
 }
 
 .btn-certificado {
@@ -510,10 +588,10 @@ body {
     justify-content: center;
     width: 10rem;
     height: 3rem;
-    background-color:  #6c63ff;
+    background-color: #6c63ff;
     border-radius: 10px;
     transition: transform 0.3s ease;
-}   
+}
 
 .btn-certificado:hover,
 .btn-certificado:focus-within {
@@ -521,15 +599,45 @@ body {
     cursor: pointer;
     background-color: #574fd6;
 }
+
 .btn-certificado:focus-within {
-    outline: 2px solid #bfa6ff; 
-    outline-offset: 2px; 
+    outline: 2px solid #bfa6ff;
+    outline-offset: 2px;
 }
 
 .btn-certificado a {
     text-decoration: none;
-    color: #fff;    
+    color: #fff;
 }
+
+#btn-topo {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    border: none;
+    cursor: pointer;
+    background-color: #58a6ff;
+    color: #0d1117;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transition: 
+        transform 0.3s ease,
+        opacity 0.3s ease,
+        background-color 0.3s ease;
+}
+
+#btn-topo:hover {
+    background-color: #1f6feb;
+    transform: translateY(-4px);
+}
+
 
 .contatos {
     padding: 2rem 4rem 0 4rem;
@@ -540,10 +648,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 34rem; 
+    min-height: 34rem;
 }
 
-.contatos .imagem-pixar-luciane{
+.contatos .imagem-pixar-luciane {
     border-radius: 45%;
     width: 15rem;
     height: auto;
@@ -558,7 +666,7 @@ body {
     list-style: none;
 }
 
-.contato a{
+.contato a {
     display: inline-flex;
     width: 30px;
     height: 30px;
@@ -574,24 +682,24 @@ body {
 
 .contato a:hover,
 .contato a:focus {
-    border-color: #6c63ff;  
-    color: #8a82ff;  
+    border-color: #6c63ff;
+    color: #8a82ff;
 }
 
-.contato-github a{
+.contato-github a {
     color: #c9d1d9;
 }
 
-.contato-linkedin a{
+.contato-linkedin a {
     color: #0A66C2;
 }
 
-.contato-whatsaap a{
+.contato-whatsaap a {
     color: #25D366;
 }
 
 .contato-email a {
-    color:  #f9a825;
+    color: #f9a825;
 }
 
 .frase-final {
@@ -600,33 +708,6 @@ body {
 }
 
 .desenvolvido {
-    color:  #6e7681;
+    color: #6e7681;
 
-}
-
-@keyframes setatopo {
-    0% {
-        transform: translatey(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
-}
-
-.seta-topo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation: setatopo 1.5s infinite;
-}
-
-.seta-topo:focus .imagem-seta {
-  outline: 3px solid #6c63ff;
-  outline-offset: 2px;
-  border-radius: 50%;
 }
