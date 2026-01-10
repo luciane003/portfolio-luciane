@@ -478,6 +478,7 @@ body {
     align-items: center;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    text-align: center;
 }
 
 .icone:hover {
@@ -495,7 +496,11 @@ body {
 .html5 i,
 .css3 i,
 .javascript i,
-.react i {
+.react i,
+.node i,
+.express i,
+.api i,
+.deploy i{
     font-size: 7rem;
 }
 
@@ -528,6 +533,22 @@ body {
 
 .nomes-icones {
     color: #0d111f;
+}
+
+.node i{
+    color: #3C873A;
+}
+
+.express i {
+  color: #444;
+}
+
+.api i {
+  color: #2563eb;
+}
+
+.deploy i {
+  color: #6366f1;
 }
 
 .subtitulo {
