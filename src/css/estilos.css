@@ -497,11 +497,14 @@ body {
 .css3 i,
 .javascript i,
 .react i,
-.node i,
-.express i,
-.api i,
-.deploy i{
+.node i{
     font-size: 7rem;
+}
+
+.deploy i,
+.express i,
+.api i {
+    font-size: 5.5rem;
 }
 
 .github {
