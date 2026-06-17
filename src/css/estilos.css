@@ -246,12 +246,12 @@ body {
     background-color: rgba(208, 191, 255, 0.1);
     margin-bottom: 2rem;
     border-radius: 20px;
-    width: 100%;
-    max-width: 87rem;
+    width: 90vw;
+    /* width: 100%;
+    max-width: 87rem; */
     padding: 1rem;
 }
 
-.resumo,
 .lista-certificados {
     height: auto;
 }
