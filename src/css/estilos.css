@@ -333,6 +333,7 @@ body {
     flex-direction: column;
     gap: 4px;
     height: 20rem;
+    padding-top: 1rem;
 }
 
 .imagem-projeto {
