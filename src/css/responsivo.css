@@ -29,7 +29,7 @@
     }
 }
 
-@media(max-width:1024px) {
+@media(max-width:1023px) {
     .cabecalho {
         gap: 1rem;
     }
@@ -84,11 +84,6 @@
 
     .projetos {
         margin-top: 0;
-    }
-
-    .projeto img {
-        width: 20rem;
-        height: auto;
     }
 
     .titulo-projeto {

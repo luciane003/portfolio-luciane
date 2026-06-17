@@ -296,7 +296,7 @@ body {
     justify-content: center;
     text-align: center;
     width: 26rem;
-    height: 37rem;
+    height: 35rem;
     padding: 17px;
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -307,11 +307,6 @@ body {
 .cartao:hover,
 .cartao:focus-within {
     transform: translateY(-10px);
-}
-
-.projeto img {
-    width: 25rem;
-    height: auto;
 }
 
 .projeto-extra {
@@ -337,6 +332,23 @@ body {
     display: flex;
     flex-direction: column;
     gap: 4px;
+    height: 20rem;
+}
+
+.imagem-projeto {
+    width: 100%;
+    max-width: 25rem;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-projeto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
 }
 
 .titulo-projeto {
@@ -352,6 +364,7 @@ body {
 .titulo-tecnologia {
     color: #b9a9f8;
     font-size: 15px;
+    margin-top: auto;
 }
 
 .icones-tecnologia {
@@ -394,6 +407,7 @@ body {
     justify-content: center;
     font-size: 12px;
     gap: 5rem;
+    margin-top: auto;
 }
 
 .links-projeto a {
