@@ -242,17 +242,13 @@ body {
     font-weight: 600;
 }
 
-.sobremim .subtitulo {
-    padding-bottom: 2rem;
-}
-
-.resumo {
+.descricao-sobre-mim {
     background-color: rgba(208, 191, 255, 0.1);
     margin-bottom: 2rem;
     border-radius: 20px;
     width: 100%;
     max-width: 87rem;
-    padding: 1rem 4rem 4rem 4rem;
+    padding: 1rem;
 }
 
 .resumo,
@@ -263,7 +259,7 @@ body {
 .texto {
     color: #d9dbf1;
     font-size: 1.25rem;
-    margin-top: 2rem;
+    padding: 0.50rem;
 }
 
 .projetos {

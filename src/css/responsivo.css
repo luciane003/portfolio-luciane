@@ -7,7 +7,7 @@
         min-height: 100vh;
     }
 
-    .resumo {
+    .descricao-sobre-mim {
         max-width: 72rem;
     }
 
@@ -29,7 +29,7 @@
     }
 }
 
-@media(max-width:1023px) {
+@media(max-width:1024px) {
     .cabecalho {
         gap: 1rem;
     }
@@ -63,18 +63,12 @@
         padding: 1rem 1.5rem 0 3rem;
     }
 
-    .sobremim {
-        height: auto;
-    }
-
-    .resumo {
+    .descricao-sobre-mim {
         max-width: 58rem;
-        padding: 1.5rem 3rem 3rem 3rem;
     }
 
     .texto {
         font-size: 1.07rem;
-        margin-top: 1rem;
     }
 
     .cartao {
@@ -171,7 +165,6 @@
     }
 
     .sobremim,
-    .resumo,
     .projetos,
     .icones-habilidades,
     .conteudo-rodape,
@@ -179,7 +172,7 @@
         height: auto;
     }
 
-    .resumo {
+    .descricao-sobre-mim {
         max-width: 51rem;
     }
 
@@ -238,20 +231,17 @@
 }
 
 @media(max-width: 854px) {
-    .sobremim {
-        padding-right: 3rem;
-    }
 
-    .resumo {
-        max-width: 46rem;
+    .descricao-sobre-mim {
+        width: 46rem;
     }
 }
 
 @media (max-width: 820px) {
 
-    .resumo,
+    .descricao-sobre-mim,
     .lista-certificados {
-        max-width: 44rem;
+        max-width: 45rem;
     }
 
     .lista-projetos {
@@ -260,7 +250,7 @@
 }
 
 @media (max-width: 768px) {
-    .resumo {
+    .descricao-sobre-mim {
         max-width: 42rem;
     }
 }
@@ -299,11 +289,10 @@
         width: 19rem;
         height: auto;
     }
-
-    .resumo {
-        padding: 1rem 3rem 2rem 3rem;
+    
+    .descricao-sobre-mim {
+        width: 28rem;
     }
-
     .texto {
         font-size: 1.09rem;
     }
