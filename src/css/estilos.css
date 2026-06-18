@@ -191,9 +191,12 @@ body {
 }
 
 .imagem-perfil img {
-    width: 23rem;
-    height: auto;
+    width: 20rem;
+    height: 20rem;
     border-radius: 50%;
+    object-fit: cover;
+    object-position: center top;
+    
     border: 3px solid #d0bfff;
 }
 
