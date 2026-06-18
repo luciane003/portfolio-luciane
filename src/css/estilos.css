@@ -268,7 +268,6 @@ body {
     padding: 2rem 4rem 0 4rem;
 }
 
-.lista-projetos,
 .icones-tecnologia,
 .icones-habilidades,
 .lista-certificados,
@@ -281,9 +280,9 @@ body {
 .lista-projetos {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
     flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 2rem;
 }
 
 .cartao {
