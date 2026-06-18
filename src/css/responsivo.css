@@ -7,9 +7,14 @@
         min-height: 100vh;
     }
 
-    .cartao {
-        width: 23rem;
-        height: 40rem;
+    .projeto {
+        width: 29rem;
+        height: 35rem;
+    }
+
+    .projeto-basico {
+        width: 22rem;
+        height: 28rem;
     }
 
     .contatos {
@@ -63,9 +68,13 @@
         font-size: 1.07rem;
     }
 
-    .cartao {
-        width: 19rem;
-        height: 32rem;
+    .projeto {
+        width: 26rem;
+        height: 29rem;
+    }
+
+    .projeto-basico {
+        height: 25rem;
     }
 
     .projetos {
