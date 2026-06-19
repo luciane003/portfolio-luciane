@@ -22,14 +22,6 @@
 }
 
 @media(max-width:1024px) {
-    /* .cabecalho {
-        gap: 1rem;
-    } */
-
-    /* .navegacao {
-        padding-right: 1.8rem;
-    } */
-
     .navegacao ul {
         gap: 2rem;
     }
@@ -65,7 +57,7 @@
 
     .imagem-perfil img {
         width: 15rem;
-        height: 15rem;
+        height: auto;
     }
 
     .seta-baixo {
@@ -94,7 +86,7 @@
     }
 
     .titulo-projeto {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .texto-projeto {
@@ -106,7 +98,7 @@
     }
 
     .icones-tecnologia {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .links-projeto {
@@ -135,23 +127,23 @@
 
     .menu {
         display: flex;
-        width: 40px;
-        height: 40px;
+        width: 2.2rem;
+        height: 2.2rem;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         cursor: pointer;
         position: absolute;
-        right: 16px;
-        top: 35px;
+        right: 1rem;
+        top: 2.2rem;
     }
 
     .navegacao ul {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 65px;
-        right: 16px;
+        top: 4rem;
+        right: 1rem;
         background-color: #161B22;
         padding: 25px;
         border-radius: 8px;
@@ -166,13 +158,14 @@
     }
 
     .cabecalho {
-        min-height: 42rem;
-    }
+        min-height: auto;
+        gap: 2rem;
+    } 
 
     .saudacao {
         padding-right: 1rem;
     }
-
+ 
     .sobremim,
     .projetos,
     .conteudo-rodape,
@@ -183,12 +176,12 @@
     .apresentacao,
     .informacoes {
         align-items: center;
-        justify-content: center;
     }
 
     .apresentacao {
         flex-direction: column;
-        gap: 40px;
+        gap: 2rem;
+        padding-top: 0;
     }
 
     .informacoes,
@@ -202,6 +195,15 @@
 
     .informacoes {
         gap: 20px;
+    }
+
+    .saudacao {
+        padding-top: 0;
+    }
+
+    .imagem-perfil img {
+        width: 13rem;
+        height: auto;
     }
 
     .seta-baixo {
@@ -308,14 +310,10 @@
         font-size: 14px;
     }
 
-    .imagem-perfil {
-        padding-left: 0;
-    }
-
     .imagem-perfil img {
-        width: 19rem;
+        width: 10rem;
         height: auto;
-    }
+    } 
 
     .secao {
         padding: 1rem;
@@ -384,12 +382,12 @@
 }
 
 @media (max-width: 431px) {
-    .saudacao {
-        padding-right: 0;
+    .apresentacao {
+        padding: 1rem;
     }
 
-    .apresentacao {
-        padding-left: 2rem;
+    .saudacao {
+        padding-right: 0;
     }
 
     .texto {
@@ -430,11 +428,6 @@
 }
 
 @media(max-width: 391px) {
-    .imagem-perfil img {
-        width: 16rem;
-        height: auto;
-    }
-
     .subtitulo {
         font-size: 1.7rem;
     }
