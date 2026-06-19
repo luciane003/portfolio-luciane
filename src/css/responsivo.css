@@ -1,10 +1,6 @@
-@media(max-width: 1281px) {
+@media(max-width: 1280px) {
     .topo-cabecalho {
         padding-right: 2rem;
-    }
-
-    .cabecalho {
-        min-height: 100vh;
     }
 
     .projeto {
@@ -16,34 +12,34 @@
         height: 28rem;
     }
 
-    .contatos {
-        min-height: 40rem;
-    }
-
-    .icones-habilidades {
-        min-height: 35rem;
-    }
-
     .certificados {
         min-height: 65rem;
+    }
+
+    .contatos {
+        min-height: 40rem;
     }
 }
 
 @media(max-width:1024px) {
-    .cabecalho {
+    /* .cabecalho {
         gap: 1rem;
-    }
+    } */
 
-    .navegacao {
+    /* .navegacao {
         padding-right: 1.8rem;
-    }
+    } */
 
     .navegacao ul {
         gap: 2rem;
     }
 
+    .navegacao ul li a {
+        font-size: 0.75rem;
+    }
+
     .apresentacao {
-        padding: 1rem 1.8rem 0 3rem;
+        padding: 1.8rem;
         gap: 5px;
     }
 
@@ -51,8 +47,25 @@
         gap: 2px;
     }
 
+    .nome {
+        font-size: 2.3rem;
+    }
+
+    .profissao {
+        font-size: 1.8rem;
+    }
+
+    .saudacao {
+        font-size: 1.3rem;
+    }
+
     .btn-curriculo {
         margin-top: 1rem;
+    }
+
+    .imagem-perfil img {
+        width: 15rem;
+        height: 15rem;
     }
 
     .seta-baixo {
@@ -99,10 +112,6 @@
     .links-projeto {
         font-size: 11px;
         gap: 3rem;
-    }
-
-    .icones-habilidades {
-        padding-bottom: 2rem;
     }
 
     .certificados {
@@ -166,7 +175,6 @@
 
     .sobremim,
     .projetos,
-    .icones-habilidades,
     .conteudo-rodape,
     .contatos {
         height: auto;
@@ -223,11 +231,6 @@
     .lista-certificados {
         min-height: 30rem;
     }
-
-    .contatos .imagem-pixar-luciane {
-        width: 15rem;
-        height: auto;
-    }
 }
 
 @media(max-width: 854px) {
@@ -242,6 +245,15 @@
 
     .projeto-basico {
         width: 20rem;
+    }
+
+    .icone {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .nomes-icones {
+        font-size: 12px;
     }
 }
 
@@ -268,9 +280,7 @@
     }
 }
 
-@media (max-width: 768px) {
-    
-}
+@media (max-width: 768px) {}
 
 @media (max-width: 540px) {
     .cabecalho {
@@ -306,7 +316,7 @@
         width: 19rem;
         height: auto;
     }
-    
+
     .secao {
         padding: 1rem;
     }
@@ -323,6 +333,36 @@
         height: 24rem;
     }
 
+    .icone {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .git i,
+    .github i,
+    .html5 i,
+    .css3 i,
+    .javascript i,
+    .react i,
+    .node i,
+    .deploy i,
+    .express i,
+    .api i {
+        font-size: 2rem;
+    }
+
+
+    .nomes-icones {
+        font-size: 9px;
+    }
+
+    .icone.typescript img,
+    .icone.vite img,
+    .icone.tailwind img {
+        width: 2rem;
+        height: auto;
+    }
+
     .lista-certificados {
         width: 29rem;
         padding-left: 0;
@@ -332,6 +372,14 @@
         width: 28px;
         height: 28px;
         font-size: 1.3rem;
+    }
+
+    .frase-final {
+        font-size: 12px;
+    }
+
+    .desenvolvido {
+        font-size: 10px;
     }
 }
 
@@ -353,34 +401,14 @@
         max-width: 22rem;
     }
 
-    .icone {
-        width: 8rem;
-        height: 8rem;
+    .icones-habilidades {
+        justify-content: center;
     }
 
-    .git i,
-    .github i,
-    .html5 i,
-    .css3 i,
-    .javascript i,
-    .react i {
-        font-size: 5rem;
+    .frase-final {
+        text-align: center;
     }
 
-    .icone.typescript img,
-    .icone.vite img,
-    .icone.tailwind img {
-        width: 4.5rem;
-        height: auto;
-    }
-
-    .conteudo-rodape {
-        max-width: 21rem;
-    }
-
-    .desenvolvido {
-        font-size: 14.8px;
-    }
 }
 
 @media (max-width: 415px) {
@@ -390,11 +418,6 @@
 
     .habilidades {
         min-height: 35rem;
-    }
-
-    .icones-habilidades {
-        justify-content: flex-start;
-        min-height: 25rem;
     }
 
     .lista-certificados {
@@ -428,14 +451,6 @@
         min-height: 35rem;
     }
 
-    .frase-final {
-        font-size: 14px;
-    }
-
-    .desenvolvido {
-        font-size: 13px;
-    }
-
     .imagem-seta {
         width: 50px;
         height: 50px;
@@ -455,8 +470,13 @@
         min-height: 35rem;
     }
 
-    .icones-habilidades {
-        min-height: 25rem;
+    .icone {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .nomes-icones {
+        font-size: 6px;
     }
 
     .lista-certificados {
