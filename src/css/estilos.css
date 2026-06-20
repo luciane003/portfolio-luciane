@@ -244,13 +244,24 @@ body {
 }
 
 .secao {
-    padding: 2rem 0rem 4rem 4rem;
+    padding: 2rem;
+    background-color: brown;
+}
+
+.sobremim {
+    background-color: #f9a825;
 }
 
 .subtitulo {
-    color: #b9a9f8;
     font-size: 2rem;
+}
+
+.subtitulo,
+.subtitulo-conhecimento {
+    color: #b9a9f8;
     font-weight: 600;
+    background-color: #0A66C2;
+    padding-bottom: 2rem;
 }
 
 .descricao-sobre-mim {
@@ -272,7 +283,7 @@ body {
 }
 
 .projetos {
-    padding: 2rem 4rem 0 4rem;
+    background-color: chartreuse;
 }
 
 .icones-tecnologia,
@@ -285,6 +296,7 @@ body {
 }
 
 .lista-projetos {
+    background-color: red;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -522,22 +534,21 @@ body {
     transform: translateY(10px);
 }
 
-
 .habilidades {
-    padding: 2rem 4rem 0 4rem;
+    background-color: crimson;
 }
 
 .icones-habilidades {
     display: flex;
     flex-wrap: wrap;
-    min-height: 14rem;
+    min-height: auto;
     transition: transform 0.3s ease;
     background-color: #3C873A;
 }
 
 .icone {
-    width: 7rem;
-    height: 7rem;
+    width: 6rem;
+    height: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -567,7 +578,7 @@ body {
 .deploy i,
 .express i,
 .api i {
-    font-size: 3rem;
+    font-size: 2.7rem;
 }
 
 .github {
@@ -593,17 +604,21 @@ body {
 .icone.typescript img,
 .icone.vite img,
 .icone.tailwind img {
-    width: 3rem;
+    width: 2.7rem;
     height: auto;
 }
 
 .nomes-icones {
-    font-size: 16px;
+    font-size: 14px;
     color: #0d111f;
 }
 
 .conhecimentos {
-    padding-bottom: 0;
+    background-color: cornsilk;
+}
+
+.subtitulo-conhecimento {
+    font-size: 1.5rem;
 }
 
 .node i{
@@ -620,10 +635,6 @@ body {
 
 .deploy i {
   color: #6366f1;
-}
-
-.subtitulo {
-    padding-bottom: 2rem;
 }
 
 .certificados {

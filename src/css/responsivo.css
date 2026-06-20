@@ -64,10 +64,6 @@
         bottom: 0.8%;
     }
 
-    .secao {
-        padding: 1rem 1.5rem 0 3rem;
-    }
-
     .texto {
         font-size: 1.07rem;
     }
@@ -79,10 +75,6 @@
 
     .projeto-basico {
         height: 25rem;
-    }
-
-    .projetos {
-        margin-top: 0;
     }
 
     .titulo-projeto {
@@ -163,7 +155,18 @@
     } 
 
     .saudacao {
-        padding-right: 1rem;
+        align-items: center;
+        padding: 0;
+    }
+
+    .secao {
+        padding: 1rem;
+    }
+
+    .sobremim {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
  
     .sobremim,
@@ -185,7 +188,6 @@
     }
 
     .informacoes,
-    .sobre-mim,
     .minha-jornada,
     .meus-objetivos,
     .convite,
@@ -197,10 +199,6 @@
         gap: 20px;
     }
 
-    .saudacao {
-        padding-top: 0;
-    }
-
     .imagem-perfil img {
         width: 13rem;
         height: auto;
@@ -208,10 +206,6 @@
 
     .seta-baixo {
         display: none;
-    }
-
-    .projetos {
-        margin-top: 0;
     }
 
     .projeto {
@@ -226,20 +220,12 @@
         gap: 2rem;
     }
 
-    .habilidades {
-        min-height: 45rem;
-    }
-
     .lista-certificados {
         min-height: 30rem;
     }
 }
 
 @media(max-width: 854px) {
-    .secao {
-        padding: 2rem;
-    }
-
     .projeto {
         width: 23rem;
         height: 26rem;
@@ -315,10 +301,6 @@
         height: auto;
     } 
 
-    .secao {
-        padding: 1rem;
-    }
-
     .texto {
         font-size: 1.09rem;
     }
@@ -329,6 +311,10 @@
 
     .projeto-basico {
         height: 24rem;
+    }
+
+    .icones-habilidades {
+        justify-content: center;
     }
 
     .icone {
@@ -348,7 +334,6 @@
     .api i {
         font-size: 2rem;
     }
-
 
     .nomes-icones {
         font-size: 9px;
@@ -386,10 +371,6 @@
         padding: 1rem;
     }
 
-    .saudacao {
-        padding-right: 0;
-    }
-
     .texto {
         font-size: 1rem;
     }
@@ -397,10 +378,6 @@
     .lista-certificados {
         min-height: 73rem;
         max-width: 22rem;
-    }
-
-    .icones-habilidades {
-        justify-content: center;
     }
 
     .frase-final {
@@ -412,10 +389,6 @@
 @media (max-width: 415px) {
     .subtitulo {
         font-size: 1.9rem;
-    }
-
-    .habilidades {
-        min-height: 35rem;
     }
 
     .lista-certificados {
@@ -459,10 +432,6 @@
         font-size: 1.6rem;
     }
 
-    .habilidades {
-        min-height: 35rem;
-    }
-
     .icone {
         width: 3rem;
         height: 3rem;
@@ -492,11 +461,12 @@
 }
 
 @media(min-width: 1024px) and (min-height: 1000px) {
-
     .cabecalho,
+    .sobremim
+    .resumo, 
     .habilidades,
     .certificados {
-        min-height: 45rem;
+        min-height: auto;
     }
 
     .apresentacao,
@@ -516,33 +486,21 @@
     }
 
     .saudacao {
-        padding-right: 7px;
+        padding: 0;
     }
 
     .seta-baixo {
         display: none;
     }
 
-    .sobremim,
     .contato {
         text-align: center;
     }
 
-
-    .sobremim {
-        min-height: 25rem;
-    }
-
-    .resumo,
     .contatos {
         height: auto;
     }
 
-    .projetos {
-        min-height: 75rem;
-    }
-
-    .icones-habilidades,
     .lista-certificados {
         height: 25rem;
     }
