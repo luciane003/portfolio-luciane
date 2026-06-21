@@ -11,14 +11,6 @@
         width: 22rem;
         height: 28rem;
     }
-
-    .certificados {
-        min-height: 65rem;
-    }
-
-    .contatos {
-        min-height: 40rem;
-    }
 }
 
 @media(max-width:1024px) {
@@ -98,17 +90,27 @@
         gap: 3rem;
     }
 
-    .certificados {
-        min-height: 40rem;
-    }
-
-    .lista-certificados {
-        min-height: 90vh;
-    }
-
     .cartao-certificado {
-        width: 23rem;
-        height: 30rem;
+        width: 17rem;
+        height: 15rem;
+    }
+
+    .texto-certificado {
+        font-size: 12px;
+    }
+    
+    .btn-certificado {
+        width: 5rem;
+        height: 2.2rem;
+    }
+
+    .btn-certificado a {
+        font-size: 10px;
+    }
+
+    .frase-final,
+    .desenvolvido {
+        font-size: 12px;
     }
 }
 
@@ -212,7 +214,8 @@
         width: 24rem;
     }
 
-    .texto-projeto {
+    .texto-projeto,
+    .texto-certificado {
         font-size: 10px;
     }
 
@@ -220,8 +223,8 @@
         gap: 2rem;
     }
 
-    .lista-certificados {
-        min-height: 30rem;
+    .cartao-certificado {
+        height: 13rem;
     }
 }
 
@@ -347,8 +350,12 @@
     }
 
     .lista-certificados {
-        width: 29rem;
-        padding-left: 0;
+        justify-content: center;
+       
+    }
+
+    .cartao-certificado {
+        width: 15rem;
     }
 
     #btn-topo {
@@ -357,10 +364,12 @@
         font-size: 1.3rem;
     }
 
-    .frase-final {
-        font-size: 12px;
+    .contatos .imagem-pixar-luciane {
+        width: 6rem;
+        height: auto;
     }
 
+    .frase-final,
     .desenvolvido {
         font-size: 10px;
     }
@@ -375,11 +384,6 @@
         font-size: 1rem;
     }
 
-    .lista-certificados {
-        min-height: 73rem;
-        max-width: 22rem;
-    }
-
     .frase-final {
         text-align: center;
     }
@@ -389,14 +393,6 @@
 @media (max-width: 415px) {
     .subtitulo {
         font-size: 1.9rem;
-    }
-
-    .lista-certificados {
-        max-width: 21rem;
-    }
-
-    .contatos {
-        padding-left: 24px;
     }
 }
 
@@ -409,14 +405,6 @@
         font-size: 1rem;
     }
 
-    .lista-certificados {
-        max-width: 19.7rem;
-    }
-
-    .cartao-certificado {
-        min-height: 35rem;
-    }
-
     .imagem-seta {
         width: 50px;
         height: 50px;
@@ -424,6 +412,11 @@
 
     #btn-topo {
         font-size: 1.1rem;
+    }
+
+    .contatos .imagem-pixar-luciane {
+        width: 5rem;
+        height: auto;
     }
 }
 
@@ -441,10 +434,6 @@
         font-size: 6px;
     }
 
-    .lista-certificados {
-        width: 19rem;
-    }
-
     .conteudo-rodape {
         max-width: 20rem;
     }
@@ -453,10 +442,6 @@
 @media (max-width: 360px) {
     .subtitulo {
         font-size: 1.5rem;
-    }
-
-    .lista-certificados {
-        max-width: 18rem;
     }
 }
 
@@ -499,13 +484,5 @@
 
     .contatos {
         height: auto;
-    }
-
-    .lista-certificados {
-        height: 25rem;
-    }
-
-    .lista-certificados {
-        min-height: 75rem;
     }
 }

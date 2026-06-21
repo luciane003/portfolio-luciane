@@ -638,8 +638,7 @@ body {
 }
 
 .certificados {
-    background-color: #1572B6;
-    padding: 2rem 4rem 0 4rem;
+    background-color:#25D366;
 }
 
 .lista-certificados {
@@ -663,6 +662,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
+    background-color: red;
 }
 
 .cartao-certificado:hover,
@@ -741,15 +741,14 @@ body {
 
 
 .contatos {
-    padding: 2rem 4rem 0 4rem;
+    background-color: #F05033;
 }
 
 .conteudo-rodape {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    min-height: 34rem;
+    background-color: red;
 }
 
 .contatos .imagem-pixar-luciane {
@@ -760,6 +759,7 @@ body {
 }
 
 .lista-contatos {
+    background-color: beige;
     display: flex;
 }
 
@@ -806,9 +806,11 @@ body {
 .frase-final {
     color: #c9d1d9;
     font-style: italic;
+    font-size: 14px;
 }
 
 .desenvolvido {
     color: #6e7681;
+    font-size: 14px;
 
 }
