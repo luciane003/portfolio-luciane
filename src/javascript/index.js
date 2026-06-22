@@ -1,5 +1,5 @@
 const secaoProjetos = document.getElementById('projetos');
-const projetosExtras = document.querySelectorAll('.projeto-extra');
+const projetosExtras = document.querySelectorAll('.projetos__cartao--escondido');
 const btnVerMais = document.getElementById('btn-ver-mais');
 const btnVerMenos = document.getElementById("btn-ver-menos");
 const btnTopo = document.getElementById('btn-topo');

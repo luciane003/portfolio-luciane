@@ -18,6 +18,7 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 
@@ -29,9 +30,9 @@
             <div class="cabecalho__logo">
                 <img src="./src/imagens/logo.png" alt="logo">
             </div>
-            <nav class="navegacao" role="navigation" aria-label="Menu principal">
+            <nav class="cabecalho__navegacao" role="navigation" aria-label="Menu principal">
                 <input type="checkbox" id="menu-hamburguer">
-                <label for="menu-hamburguer" class="cabecalho__menu-toggle" aria-label="Abrir menu">
+                <label for="menu-hamburguer" class="cabecalho__menu-alternar" aria-label="Abrir menu">
                     <span class="cabecalho__menu-icone"></span>
                 </label>
 
@@ -46,12 +47,13 @@
         </div>
 
         <section class="apresentacao">
-            <div class="apresentacao__info">
+            <div class="apresentacao__informacoes">
                 <h1 class="apresentacao__nome">Luciane Kellen</h1>
                 <h2 class="apresentacao__cargo">Desenvolvedora Frontend Júnior</h2>
-                <p class="saudacao">Desenvolvedora front-end focada na criação de interfaces web responsivas e
+                <p class="apresentacao__descricao">Desenvolvedora front-end focada na criação de interfaces web
+                    responsivas e
                     funcionais com HTML, CSS, JavaScript e React.</p>
-                <div class="btn-curriculo">
+                <div class="apresentacao__curriculo">
                     <a href="./docs/Luciane_Kellen_Frontend.pdf" target="_blank" rel="noopener"
                         aria-label="Abrir currículo de Luciane Kellen em nova aba">
                         Ver Currículo
@@ -74,34 +76,39 @@
 
     <main>
         <section id="sobremim" class="secao sobremim">
-            <h2 class="subtitulo sobre-mim">Sobre mim</h2>
-            <div class="descricao-sobre-mim">
-                <p class="texto">
-                    <strong>Objetivo:</strong> Atuar como Desenvolvedora Front-end Júnior, contribuindo na criação de interfaces modernas, acessíveis e na resolução de problemas através de código limpo e responsivo.
+            <h2 class="subtitulo">Sobre mim</h2>
+            <div class="sobremim__descricao">
+                <p class="sobremim__texto">
+                    <strong>Objetivo:</strong> Atuar como Desenvolvedora Front-end Júnior, contribuindo na criação de
+                    interfaces modernas, acessíveis e na resolução de problemas através de código limpo e responsivo.
                 </p>
 
-                <p class="texto">
-                    Sou Desenvolvedora Front-end Júnior em transição de carreira para a área de tecnologia. Tenho experiência sólida com HTML, CSS e JavaScript, além de conhecimentos em TypeScript, React e TailwindCSS. Também possuo familiaridade com consumo de APIs e integração básica com back-end em Node.js. Busco constantemente aplicar boas práticas de desenvolvimento web e evoluir minhas habilidades técnicas em um time colaborativo.
+                <p class="sobremim__texto">
+                    Sou Desenvolvedora Front-end Júnior em transição de carreira para a área de tecnologia. Tenho
+                    experiência sólida com HTML, CSS e JavaScript, além de conhecimentos em TypeScript, React e
+                    TailwindCSS. Também possuo familiaridade com consumo de APIs e integração básica com back-end em
+                    Node.js. Busco constantemente aplicar boas práticas de desenvolvimento web e evoluir minhas
+                    habilidades técnicas em um time colaborativo.
                 </p>
             </div>
         </section>
 
         <section id="projetos" class="secao projetos">
             <h2 class="subtitulo">Projetos</h2>
-            <div class="lista-projetos">
-                <div class="cartao projeto animacao-scroll">
-                    <div class="imagem-projeto">
+            <div class="projetos__lista">
+                <div class="projetos__cartao animacao-scroll">
+                    <div class="projetos__imagem">
                         <img src="./src/imagens/projeto-loja-storeMix.png"
                             alt="Mockup de storemix-react com layout responsivo" loading="lazy">
                     </div>
-                    <div class="informacoes-projeto">
-                        <h3 class="titulo-projeto">Loja StoreMix</h3>
-                        <p class="texto-projeto">
+                    <div class="projetos__informacoes">
+                        <h3 class="projetos__titulo">Loja StoreMix</h3>
+                        <p class="projetos__texto">
                             Loja virtual front-end com carrinho de compras funcional, cálculo automático de total e
                             tipagem com TypeScript. Interface responsiva construída com Tailwind CSS.
                         </p>
-                        <h4 class="titulo-tecnologia">Tecnologias</h4>
-                        <div class="icones-tecnologia">
+                        <h4 class="projetos__titulo-tecnologias">Tecnologias</h4>
+                        <div class="projetos__tecnologias">
                             <div class="html5-icone">
                                 <i class="fab fa-html5"></i>
                             </div>
@@ -122,12 +129,12 @@
                                 <img src="./src/icones/tailwindcss-original.svg" alt="Tailwind CSS">
                             </div>
                         </div>
-                        <ul class="links-projeto">
-                            <li class="link">
+                        <ul class="projetos__links">
+                            <li class="projetos__link">
                                 <a href="https://luciane003.github.io/storemix-react/" target="_blank">Ver
                                     projeto</a>
                             </li>
-                            <li class="link">
+                            <li class="projetos__link">
                                 <a href="https://github.com/luciane003/storemix-react" target="_blank">Ver
                                     repositório</a>
                             </li>
@@ -135,19 +142,19 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto animacao-scroll">
-                    <div class="imagem-projeto">
+                <div class="projetos__cartao animacao-scroll">
+                    <div class="projetos__imagem">
                         <img src="./src/imagens/projeto-appNotas.png"
                             alt="Mockup de aplicativo de anotações com layout responsivo" loading="lazy">
                     </div>
-                    <div class="informacoes-projeto">
-                        <h3 class="titulo-projeto">NoteApp</h3>
-                        <p class="texto-projeto">
+                    <div class="projetos__informacoes">
+                        <h3 class="projetos__titulo">NoteApp</h3>
+                        <p class="projetos__texto">
                             Aplicação de anotações com CRUD completo, utilizando API REST para persistência de dados e
                             gerenciamento dinâmico de notas.
                         </p>
-                        <h4 class="titulo-tecnologia">Tecnologias</h4>
-                        <div class="icones-tecnologia">
+                        <h4 class="projetos__titulo-tecnologias">Tecnologias</h4>
+                        <div class="projetos__tecnologias">
                             <div class="html5-icone">
                                 <i class="fab fa-html5"></i>
                             </div>
@@ -159,12 +166,12 @@
                                 <i class="fab fa-js"></i>
                             </div>
                         </div>
-                        <ul class="links-projeto">
-                            <li class="link">
+                        <ul class="projetos__links">
+                            <li class="projetos__link">
                                 <a href="https://luciane003.github.io/App-Notas/" target="_blank">Ver
                                     projeto</a>
                             </li>
-                            <li class="link">
+                            <li class="projetos__link">
                                 <a href="https://github.com/luciane003/App-Notas" target="_blank">Ver
                                     repositório</a>
                             </li>
@@ -172,19 +179,19 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto animacao-scroll">
-                    <div class="imagem-projeto">
+                <div class="projetos__cartao animacao-scroll">
+                    <div class="projetos__imagem">
                         <img src="./src/imagens/projeto-gerenciador-de-extensoes.png"
                             alt="Mockup de aplicativo de anotações com layout responsivo" loading="lazy">
                     </div>
-                    <div class="informacoes-projeto">
-                        <h3 class="titulo-projeto">Gerenciador de Extensões</h3>
-                        <p class="texto-projeto">
+                    <div class="projetos__informacoes">
+                        <h3 class="projetos__titulo">Gerenciador de Extensões</h3>
+                        <p class="projetos__texto">
                             Aplicação em React com gerenciamento de estado em tempo real, permitindo ativação e
                             desativação de extensões com interface responsiva.
                         </p>
-                        <h4 class="titulo-tecnologia">Tecnologias</h4>
-                        <div class="icones-tecnologia">
+                        <h4 class="projetos__titulo-tecnologias">Tecnologias</h4>
+                        <div class="projetos__tecnologias">
                             <div class="html5-icone">
                                 <i class="fab fa-html5"></i>
                             </div>
@@ -204,12 +211,12 @@
                                 <img src="./src/icones/typescript-original.svg" alt="TypeScript">
                             </div>
                         </div>
-                        <ul class="links-projeto">
-                            <li class="link">
+                        <ul class="projetos__links">
+                            <li class="projetos__link">
                                 <a href="https://extension-manager-eight.vercel.app/" target="_blank">Ver
                                     projeto</a>
                             </li>
-                            <li class="link">
+                            <li class="projetos__link">
                                 <a href="https://github.com/luciane003/extension-manager" target="_blank">Ver
                                     repositório</a>
                             </li>
@@ -217,20 +224,21 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto projeto-extra animacao-scroll">
-                    <div class="imagem-projeto">
+                <div class="projetos__cartao projeto__cartao--escondido
+                animacao-scroll">
+                    <div class="projetos__imagem">
                         <img src="./src/imagens/projeto-lista-de-tarefas.png"
                             alt="Mockup de lista de tarefas com layout responsivo" loading="lazy">
                     </div>
-                    <div class="informacoes-projeto">
-                        <h3 class="titulo-projeto">Lista de Tarefas</h3>
-                        <p class="texto-projeto">
+                    <div class="projetos__informacoes">
+                        <h3 class="projetos__titulo">Lista de Tarefas</h3>
+                        <p class="projetos__texto">
                             Lista de tarefas com limite diário de 8 itens, permitindo adicionar, concluir tarefas e
                             alternar entre modo claro e escuro, com foco em manipulação do DOM e interatividade em
                             JavaScript.
                         </p>
-                        <h4 class="titulo-tecnologia">Tecnologias</h4>
-                        <div class="icones-tecnologia">
+                        <h4 class="projetos__titulo-tecnologias">Tecnologias</h4>
+                        <div class="projetos__tecnologias">
                             <div class="html5-icone">
                                 <i class="fab fa-html5"></i>
                             </div>
@@ -242,12 +250,12 @@
                                 <i class="fab fa-js"></i>
                             </div>
                         </div>
-                        <ul class="links-projeto">
-                            <li class="link">
+                        <ul class="projetos__links">
+                            <li class="projetos__link">
                                 <a href="https://luciane003.github.io/Lista-de-tarefas/" target="_blank">Ver
                                     projeto</a>
                             </li>
-                            <li class="link">
+                            <li class="projetos__link">
                                 <a href="https://github.com/luciane003/Lista-de-tarefas" target="_blank">Ver
                                     repositório</a>
                             </li>
@@ -255,20 +263,20 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto projeto-extra animacao-scroll">
-                    <div class="imagem-projeto">
+                <div class="projetos__cartao projetos__cartao--escondido animacao-scroll">
+                    <div class="projetos__imagem">
                         <img src="./src/imagens/projeto-gerador-de-conselhos.png"
                             alt="Mockup da interface de login do projeto Gerador de Conselhos" loading="lazy">
                     </div>
-                    <div class="informacoes-projeto">
-                        <h3 class="titulo-projeto">Gerador de Conselhos</h3>
-                        <p class="texto-projeto">
+                    <div class="projetos__informacoes">
+                        <h3 class="projetos__titulo">Gerador de Conselhos</h3>
+                        <p class="projetos__texto">
                             Aplicação que exibe conselhos aleatórios, iniciando com dados fixos e evoluindo para
                             integração com API para conteúdo dinâmico. Interface em inglês para prática do idioma e
                             maior alcance.
                         </p>
-                        <h4 class="titulo-tecnologia">Tecnologias</h4>
-                        <div class="icones-tecnologia">
+                        <h4 class="projetos__titulo-tecnologias">Tecnologias</h4>
+                        <div class="projetos__tecnologias">
                             <div class="html5-icone">
                                 <i class="fab fa-html5"></i>
                             </div>
@@ -280,12 +288,12 @@
                                 <i class="fab fa-js"></i>
                             </div>
                         </div>
-                        <ul class="links-projeto">
-                            <li class="link">
+                        <ul class="projetos__links">
+                            <li class="projetos__link">
                                 <a href="https://luciane003.github.io/gerador-de-conselhos/" target="_blank">Ver
                                     projeto</a>
                             </li>
-                            <li class="link">
+                            <li class="projetos__link">
                                 <a href="https://github.com/luciane003/gerador-de-conselhos" target="_blank">Ver
                                     repositório</a>
                             </li>
@@ -293,20 +301,20 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto projeto-extra animacao-scroll">
-                    <div class="imagem-projeto">
+                <div class="projetos__cartao projetos__cartao--escondido animacao-scroll">
+                    <div class="projetos__imagem">
                         <img src="./src/imagens/projeto-menu-de-sobremesas.png"
                             alt="Mockup do projeto menu de sobremesas com layout responsivo" loading="lazy">
                     </div>
-                    <div class="informacoes-projeto">
-                        <h3 class="titulo-projeto">Menu de Sobremesas</h3>
-                        <p class="texto-projeto">
+                    <div class="projetos__informacoes">
+                        <h3 class="projetos__titulo">Menu de Sobremesas</h3>
+                        <p class="projetos__texto">
                             Aplicação do Frontend Mentor para gerenciamento de cardápio de sobremesas, com
                             funcionalidades de adicionar, editar e remover itens, utilizando manipulação do DOM e layout
                             responsivo.
                         </p>
-                        <h4 class="titulo-tecnologia">Tecnologias</h4>
-                        <div class="icones-tecnologia">
+                        <h4 class="projetos__titulo-tecnologias">Tecnologias</h4>
+                        <div class="projetos__tecnologias">
                             <div class="html5-icone">
                                 <i class="fab fa-html5"></i>
                             </div>
@@ -318,12 +326,12 @@
                                 <i class="fab fa-js"></i>
                             </div>
                         </div>
-                        <ul class="links-projeto">
-                            <li class="link">
+                        <ul class="projetos__links">
+                            <li class="projetos__link">
                                 <a href="https://luciane003.github.io/dessert-menu/" target="_blank">Ver
                                     projeto</a>
                             </li>
-                            <li class="link">
+                            <li class="projetos__link">
                                 <a href="https://github.com/luciane003/dessert-menu" target="_blank">Ver
                                     repositório</a>
                             </li>
@@ -331,18 +339,18 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto-extra projeto-basico animacao-scroll">
-                    <div class="imagem-projeto">
+                <div class="projetos__cartao projetos__cartao--escondido projetos__cartao--pequeno animacao-scroll">
+                    <div class="projetos__imagem">
                         <img src="./src/imagens/projeto-relogio-digital.png"
                             alt="Relógio digital mostrando hora e data com tema claro e escuro" loading="lazy">
                     </div>
-                    <div class="informacoes-projeto">
-                        <h3 class="titulo-projeto-basico">Relógio Digital</h3>
-                        <p class="texto-projeto-basico">
-                           Relógio em tempo real com manipulação dinâmica do DOM (JS) e alternância de tema light/dark.
+                    <div class="projetos__informacoes">
+                        <h3 class="projetos__titulo-basico">Relógio Digital</h3>
+                        <p class="projetos__texto-basico">
+                            Relógio em tempo real com manipulação dinâmica do DOM (JS) e alternância de tema light/dark.
                         </p>
-                        <h4 class="titulo-tecnologia">Tecnologias</h4>
-                        <div class="icones-tecnologia">
+                        <h4 class="projetos__titulo-tecnologias">Tecnologias</h4>
+                        <div class="projetos__tecnologias">
                             <div class="html5-icone">
                                 <i class="fab fa-html5"></i>
                             </div>
@@ -354,11 +362,11 @@
                                 <i class="fab fa-js"></i>
                             </div>
                         </div>
-                        <ul class="links-projeto-basico">
-                            <li class="projeto-basico-link">
+                        <ul class="projetos__links-basico">
+                            <li class="projetos__link">
                                 <a href="https://luciane003.github.io/relogio-digital/" target="_blank">Ver projeto</a>
                             </li>
-                            <li class="projeto-basico-link">
+                            <li class="projetos__link">
                                 <a href="https://github.com/luciane003/relogio-digital" target="_blank">Ver
                                     repositório</a>
                             </li>
@@ -366,18 +374,19 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto-extra projeto-basico animacao-scroll">
-                    <div class="imagem-projeto">
+                <div class="projetos__cartao projetos__cartao--escondido projetos__cartao--pequeno animacao-scroll">
+                    <div class="projetos__imagem">
                         <img src="./src/imagens/projeto-gerador-de-ingressos.png"
                             alt="Mockup de gerador de ingressos com layout responsivo" loading="lazy">
                     </div>
-                    <div class="informacoes-projeto">
-                        <h3 class="titulo-projeto-basico">Gerador de Ingressos</h3>
-                        <p class="texto-projeto-basico">
-                            Desafio Frontend Mentor com geração automática de tickets, layout responsivo e manipulação dinâmica do DOM.
+                    <div class="projetos__informacoes">
+                        <h3 class="projetos__titulo-basico">Gerador de Ingressos</h3>
+                        <p class="projetos__texto-basico">
+                            Desafio Frontend Mentor com geração automática de tickets, layout responsivo e manipulação
+                            dinâmica do DOM.
                         </p>
-                        <h4 class="titulo-tecnologia">Tecnologias</h4>
-                        <div class="icones-tecnologia">
+                        <h4 class="projetos__titulo-tecnologias">Tecnologias</h4>
+                        <div class="projetos__tecnologias">
                             <div class="html5-icone">
                                 <i class="fab fa-html5"></i>
                             </div>
@@ -389,12 +398,12 @@
                                 <i class="fab fa-js"></i>
                             </div>
                         </div>
-                        <ul class="links-projeto-basico">
-                            <li class="projeto-basico-link">
+                        <ul class="projetos__links-basico">
+                            <li class="projetos__link">
                                 <a href="https://luciane003.github.io/Conference-ticket-generator/" target="_blank">Ver
                                     projeto</a>
                             </li>
-                            <li class="projeto-basico-link">
+                            <li class="projetos__link">
                                 <a href="https://github.com/luciane003/Conference-ticket-generator" target="_blank">Ver
                                     repositório</a>
                             </li>
@@ -402,18 +411,19 @@
                     </div>
                 </div>
 
-                <div class="cartao projeto-extra projeto-basico animacao-scroll">
-                    <div class="imagem-projeto">
+                <div class="projetos__cartao projetos__cartao--escondido projetos__cartao--pequeno animacao-scroll">
+                    <div class="projetos__imagem">
                         <img src="./src/imagens/projeto-huddle-base.png"
                             alt="Mockup da interface de login do projeto Huddle Base" loading="lazy">
                     </div>
-                    <div class="informacoes-projeto">
-                        <h3 class="titulo-projeto-basico">Huddle base</h3>
-                        <p class="texto-projeto-basico">
-                            Projeto focado em UX/UI e acessibilidade, com fluxo completo de onboarding (boas-vindas) e cadastro responsivo.
+                    <div class="projetos__informacoes">
+                        <h3 class="projetos__titulo-basico">Huddle base</h3>
+                        <p class="projetos__texto-basico">
+                            Projeto focado em UX/UI e acessibilidade, com fluxo completo de onboarding (boas-vindas) e
+                            cadastro responsivo.
                         </p>
-                        <h4 class="titulo-tecnologia">Tecnologias</h4>
-                        <div class="icones-tecnologia">
+                        <h4 class="projetos__titulo-tecnologias">Tecnologias</h4>
+                        <div class="projetos__tecnologias">
                             <div class="html5-icone">
                                 <i class="fab fa-html5"></i>
                             </div>
@@ -421,30 +431,31 @@
                                 <i class="fab  fa-css3-alt"></i>
                             </div>
                         </div>
-                        <ul class="links-projeto-basico">
-                            <li class="projeto-basico-link">
+                        <ul class="projetos__links-basico">
+                            <li class="projetos__link">
                                 <a href="https://luciane003.github.io/Huddle-base/" target="_blank">Ver projeto</a>
                             </li>
-                            <li class="projeto-basico-link">
+                            <li class="projetos__link">
                                 <a href="https://github.com/luciane003/Huddle-base" target="_blank">Ver repositório</a>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <div class="cartao projeto-extra projeto-basico animacao-scroll">
-                    <div class="imagem-projeto">
+                <div class="projetos__cartao projetos__cartao--escondido projetos__cartao--pequeno animacao-scroll">
+                    <div class="projetos__imagem">
                         <img src="./src/imagens/projeto-tela-login.png"
                             alt="Mockup da interface de login do projeto Vuelvess" loading="lazy">
                     </div>
-                    <div class="informacoes-projeto">
-                        <h3 class="titulo-projeto-basico">Vuelvess - Tela login</h3>
-                        <p class="texto-projeto-basico">
-                           Tela de login responsiva com foco em usabilidade, fluxo intuitivo de boas-vindas e formulário semântico.
+                    <div class="projetos__informacoes">
+                        <h3 class="projetos__titulo-basico">Vuelvess - Tela login</h3>
+                        <p class="projetos__texto-basico">
+                            Tela de login responsiva com foco em usabilidade, fluxo intuitivo de boas-vindas e
+                            formulário semântico.
                         </p>
-                        <h4 class="titulo-tecnologia">Tecnologias
+                        <h4 class="projetos__titulo-tecnologias">Tecnologias
                         </h4>
-                        <div class="icones-tecnologia">
+                        <div class="projetos__tecnologias">
                             <div class="html5-icone">
                                 <i class="fab fa-html5"></i>
                             </div>
@@ -452,11 +463,11 @@
                                 <i class="fab  fa-css3-alt"></i>
                             </div>
                         </div>
-                        <ul class="links-projeto-basico">
-                            <li class="projeto-basico-link">
+                        <ul class="projetos__links-basico">
+                            <li class="projetos__link">
                                 <a href="https://luciane003.github.io/tela-login/" target="_blank">Ver projeto</a>
                             </li>
-                            <li class="projeto-basico-link">
+                            <li class="projetos__link">
                                 <a href="https://github.com/luciane003/tela-login" target="_blank">Ver repositório</a>
                             </li>
                         </ul>
@@ -470,66 +481,66 @@
 
         </section>
 
-        <section id="habilidades" class=" secao habilidades">
+        <section id="habilidades" class="secao habilidades">
             <h3 class="subtitulo">Habilidades</h3>
-            <div class="icones-habilidades">
-                <div class="icone git animacao-scroll">
+            <div class="habilidades__lista">
+                <div class="habilidades__item habilidades__item--git animacao-scroll">
                     <i class="fab fa-git-alt"></i>
-                    <h3 class="nomes-icones">GIT</h3>
+                    <h3 class="habilidades__nome">GIT</h3>
                 </div>
-                <div class="icone github animacao-scroll">
+                <div class="habilidades__item habilidades__item--github animacao-scroll">
                     <i class="fab fa-github animacao-scroll"></i>
-                    <h3 class="nomes-icones">GITHUB</h3>
+                    <h3 class="habilidades__nome">GITHUB</h3>
                 </div>
-                <div class="icone html5 animacao-scroll">
+                <div class="habilidades__item habilidades__item--html5 animacao-scroll">
                     <i class="fab fa-html5"></i>
-                    <h3 class="nomes-icones">HTML5</h3>
+                    <h3 class="habilidades__nome">HTML5</h3>
                 </div>
-                <div class="icone css3 animacao-scroll">
+                <div class="habilidades__item habilidades__item--css3 animacao-scroll">
                     <i class="fab fa-css3-alt"></i>
-                    <h3 class="nomes-icones">CSS3</h3>
+                    <h3 class="habilidades__nome">CSS3</h3>
                 </div>
-                <div class="icone javascript animacao-scroll">
+                <div class="habilidades__item habilidades__item--javascript animacao-scroll">
                     <i class="fab fa-js"></i>
-                    <h3 class="nomes-icones">JavaScript</h3>
+                    <h3 class="habilidades__nome">JavaScript</h3>
                 </div>
-                <div class="icone react animacao-scroll">
+                <div class="habilidades__item habilidades__item--react animacao-scroll">
                     <i class="fab fa-react"></i>
-                    <h3 class="nomes-icones">React</h3>
+                    <h3 class="habilidades__nome">React</h3>
                 </div>
-                <div class="icone typescript animacao-scroll">
+                <div class="habilidades__item habilidades__item--typescript animacao-scroll">
                     <img src="./src/icones/typescript-original.svg" alt="Icone do TypeScript">
-                    <h3 class="nomes-icones">TypeScript</h3>
+                    <h3 class="habilidades__nome">TypeScript</h3>
                 </div>
-                <div class="icone vite animacao-scroll">
+                <div class="habilidades__item habilidades__item--vite animacao-scroll">
                     <img src="./src/icones/logo-vite.svg" alt="Icone do Vite">
-                    <h3 class="nomes-icones">Vite</h3>
+                    <h3 class="habilidades__nome">Vite</h3>
                 </div>
-                <div class="icone tailwind animacao-scroll">
+                <div class="habilidades__item habilidades__item--tailwind animacao-scroll">
                     <img src="./src/icones/tailwindcss-original.svg" alt="Icone do Tailwind">
-                    <h3 class="nomes-icones">Tailwind</h3>
+                    <h3 class="habilidades__nome">Tailwind</h3>
                 </div>
             </div>
         </section>
 
         <section id="conhecimentos" class="secao conhecimentos">
             <h3 class="subtitulo-conhecimento">Complementos</h3>
-            <div class="icones-habilidades">
-                <div class="icone node animacao-scroll">
+            <div class="habilidades__lista">
+                <div class="habilidades__item habilidades__item--node animacao-scroll">
                     <i class="fab fa-node-js"></i>
-                    <h3 class="nomes-icones">Node.js</h3>
+                    <h3 class="habilidades__nome">Node.js</h3>
                 </div>
-                <div class="icone express animacao-scroll">
+                <div class="habilidades__item habilidades__item--express animacao-scroll">
                     <i class="fas fa-server"></i>
-                    <h3 class="nomes-icones">Express</h3>
+                    <h3 class="habilidades__nome">Express</h3>
                 </div>
-                <div class="icone api animacao-scroll">
+                <div class="habilidades__item habilidades__item--api animacao-scroll">
                     <i class="fas fa-code"></i>
-                    <h3 class="nomes-icones">API REST</h3>
+                    <h3 class="habilidades__nome">API REST</h3>
                 </div>
-                <div class="icone deploy animacao-scroll">
+                <div class="habilidades__item habilidades__item--render animacao-scroll">
                     <i class="fas fa-cloud"></i>
-                    <h3 class="nomes-icones">Render</h3>
+                    <h3 class="habilidades__nome">Render</h3>
                 </div>
             </div>
         </section>
@@ -537,29 +548,33 @@
         <section id="certificados" class="secao certificados">
             <h3 class="subtitulo">Certificados</h3>
             <div class="lista-certificados">
-                <div class=" cartao-certificado">
+                <div class=" projetos__cartao-certificado">
                     <h4 class="nome-certificado">Front-end</h4>
-                    <p class="texto-certificado"><strong>DevQuest (2025) - </strong>HTML, CSS, JavaScript, React, TypeScript, TailwindCSS e Vite com foco em desenvolvimento de interfaces e projetos práticos.</p>
+                    <p class="texto-certificado"><strong>DevQuest (2025) - </strong>HTML, CSS, JavaScript, React,
+                        TypeScript, TailwindCSS e Vite com foco em desenvolvimento de interfaces e projetos práticos.
+                    </p>
                     <div class="btn-certificado">
                         <a href="./src/imagens/Certificado-DevQuest.png" target="_blank">Certificado</a>
                     </div>
                 </div>
-                <div class=" cartao-certificado">
+                <div class=" projetos__cartao-certificado">
                     <h4 class="nome-certificado">Algoritmos</h4>
-                    <p class="texto-certificado"><strong>Curso em Vídeo (2025) - </strong>Lógica de programação e resolução de problemas.</p>
+                    <p class="texto-certificado"><strong>Curso em Vídeo (2025) - </strong>Lógica de programação e
+                        resolução de problemas.</p>
                     <div class="btn-certificado">
                         <a href="./src/imagens/Certificado-Algoritmo.png" target="_blank">Certificado</a>
                     </div>
                 </div>
-                <div class="cartao-certificado">
+                <div class="projetos__cartao-certificado">
                     <h4 class="nome-curso">Backend</h4>
-                    <p class="texto-certificado"><strong>DevQuest (2025) - </strong>Node.js, Express e criação de APIs REST com integração front-end.
+                    <p class="texto-certificado"><strong>DevQuest (2025) - </strong>Node.js, Express e criação de APIs
+                        REST com integração front-end.
                     </p>
                     <div class="btn-certificado">
                         <a href="./src/imagens/Certificado-DevQuest-Back-end.png" target="_blank">Certificado</a>
                     </div>
                 </div>
-                <div class="cartao-certificado">
+                <div class="projetos__cartao-certificado">
                     <h4 class="nome-curso">Idioma Espanhol</h4>
                     <p class="texto-certificado"><strong>CEL (2021) - </strong>Nível intermediário.
                     </p>
@@ -582,7 +597,7 @@
                 class="imagem-pixar-luciane">
             <div class="frase-final">
                 Disponível para oportunidades e colaborações. Entre em contato!
-            </div>    
+            </div>
             <ul class="lista-contatos">
                 <li class="contato contato-github"><a href="https://github.com/luciane003" target="_blank"
                         aria-label="GitHub de Luciane Kellen"><i class="fab fa-github"></i></a></li>

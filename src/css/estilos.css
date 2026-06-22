@@ -31,19 +31,19 @@ body {
     border-radius: 50%;
 }
 
-.navegacao {
+.cabecalho__navegacao {
     padding: 2rem 1rem 1rem 0;
     position: relative;
 }
 
-.navegacao ul {
+.cabecalho__navegacao ul {
     display: flex;
     list-style: none;
     text-decoration: none;
     gap: 3rem;
 }
 
-.navegacao ul li a {
+.cabecalho__navegacao ul li a {
     display: block;
     text-decoration: none;
     background-color: #1f2a44;
@@ -57,8 +57,8 @@ body {
     border: 1px solid transparent;
 }
 
-.navegacao ul li a:hover,
-.navegacao ul li a:focus {
+.cabecalho__navegacao ul li a:hover,
+.cabecalho__navegacao ul li a:focus {
     transform: scale(1.1);
     border-radius: 10px;
     cursor: pointer;
@@ -66,16 +66,16 @@ body {
     box-shadow: 0 8px 16px rgba(162, 210, 255, 0.3);
 }
 
-.navegacao ul li a:focus,
-.btn-curriculo a,
-.link a,
-.cartao-certificado:focus-within,
+.cabecalho__navegacao ul li a:focus,
+.apresentacao__curriculo a,
+.projetos__link a,
+.projetos__cartao-certificado:focus-within,
 .btn-certificado a,
 .seta-topo:focus {
     outline: none;
 }
 
-.cabecalho__menu-toggle {
+.cabecalho__menu-alternar {
     display: none;
     cursor: pointer;
 }
@@ -100,11 +100,11 @@ body {
     left: 0;
 }
 
-.hamburguer::before {
+.cabecalho__menu-icone::before {
     top: -8px;
 }
 
-.hamburguer::after {
+.cabecalho__menu-icone::after {
     top: 8px;
 }
 
@@ -119,7 +119,7 @@ body {
     padding: 2rem 4rem 0 4rem;
 }
 
-.apresentacao__info {
+.apresentacao__informacoes {
     background-color: #2563eb;
     display: flex;
     flex-direction: column;
@@ -142,7 +142,7 @@ body {
     font-weight: 600;
 }
 
-.saudacao {
+.apresentacao__descricao {
     color: #d0bfff;
     font-size: 1.5rem;
     padding: 1em 2em 0 0;
@@ -151,15 +151,16 @@ body {
     background-color: #58a6ff;
 }
 
-.btn-curriculo,
+.apresentacao__curriculo,
 .imagem-seta,
-.link,
-.projeto-basico-link,
-.icone {
+.projetos__link,
+.projetos__cartao--pequeno
+.projetos__link,
+.habilidades__item {
     background-color: #d0bfff;
 }
 
-.btn-curriculo {
+.apresentacao__curriculo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,20 +171,20 @@ body {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.btn-curriculo:hover,
-.btn-curriculo:focus-within {
+.apresentacao__curriculo:hover,
+.apresentacao__curriculo:focus-within {
     transform: translateY(-5px);
     background-color: #bfa6ff;
     cursor: pointer;
 }
 
-.btn-curriculo:focus-within,
-.link:focus-within {
+.apresentacao__curriculo:focus-within,
+.projetos__link:focus-within {
     outline: 2px solid #bfa6ff;
     outline-offset: 4px;
 }
 
-.btn-curriculo a {
+.apresentacao__curriculo a {
     text-decoration: none;
     color: #1f2a44;
     font-size: 1rem;
@@ -264,7 +265,7 @@ body {
     padding-bottom: 2rem;
 }
 
-.descricao-sobre-mim {
+.sobremim__descricao {
     background-color: rgba(208, 191, 255, 0.1);
     margin-bottom: 2rem;
     border-radius: 20px;
@@ -276,7 +277,7 @@ body {
     height: auto;
 }
 
-.texto {
+.sobremim__texto {
     color: #d9dbf1;
     font-size: 1.25rem;
     padding: 0.50rem;
@@ -286,16 +287,16 @@ body {
     background-color: chartreuse;
 }
 
-.icones-tecnologia,
-.icones-habilidades,
+.projetos__tecnologias,
+.habilidades__lista,
 .lista-certificados,
-.cartao-certificado,
+.projetos__cartao-certificado,
 .conteudo-rodape,
 .lista-contatos {
     gap: 20px;
 }
 
-.lista-projetos {
+.projetos__lista {
     background-color: red;
     display: flex;
     align-items: center;
@@ -304,8 +305,10 @@ body {
     padding-bottom: 2rem;
 }
 
-.cartao {
+.projetos__cartao {
     background-color: #1f2a44;
+    width: 26rem;
+    height: 32rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -318,23 +321,18 @@ body {
     border: 2px solid #d0bfff;
 }
 
-.cartao:hover,
-.cartao:focus-within {
+.projetos__cartao:hover,
+.projetos__cartao:focus-within {
     transform: translateY(-10px);
 }
 
-.projeto {
-    width: 26rem;
-    height: 32rem;
-}
-
-.projeto-extra {
+.projetos__cartao--escondido {
     display: none;
 }
 
-.projeto-basico {
+.projetos__cartao--pequeno {
     width: 20rem;
-    height:28rem
+    height: 28rem
 }
 
 .mostrar-projeto {
@@ -352,7 +350,7 @@ body {
     transform: translateY(0);
 }
 
-.informacoes-projeto {
+.projetos__informacoes {
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -361,7 +359,7 @@ body {
     background-color: black;
 }
 
-.imagem-projeto {
+.projetos__imagem {
     width: 100%;
     max-width: 25rem;
     aspect-ratio: 16 / 9;
@@ -371,54 +369,53 @@ body {
     background-color: red;
 }
 
-.imagem-projeto img {
+.projetos__imagem img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: 1rem;
 }
 
-.titulo-projeto,
-.titulo-projeto-basico {
+.projetos__titulo,
+.projetos__titulo-basico {
     color: #a2d2ff;
 }
 
-.titulo-projeto {
+.projetos__titulo {
     font-size: 18px;
 }
 
-.titulo-projeto-basico {
+.projetos__titulo-basico {
     font-size: 15px;
 }
 
-.texto-projeto,
-.texto-projeto-basico {
+.projetos__texto,
+.projetos__texto-basico {
     color: #d9dbf1;
 }
 
-.texto-projeto {
+.projetos__texto {
     font-size: 14px;
 }
 
-.texto-projeto-basico {
+.projetos__texto-basico {
     font-size: 13px;
 }
 
-.titulo-tecnologia {
+.projetos__titulo-tecnologias {
     color: #b9a9f8;
     font-size: 14px;
     margin-top: auto;
 }
 
-.icones-tecnologia {
+.projetos__tecnologias {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 20px;
 }
 
-.icones-tecnologia .ts-icone img,
-.icones-tecnologia .tailwind-icone img{
+.projetos__tecnologias  img {
     width: 20px;
     height: 19px;
 }
@@ -440,62 +437,61 @@ body {
 }
 
 
-.titulo-link {
+.titulo-projetos__link {
     font-size: 15px;
 }
 
-.links-projeto,
-.links-projeto-basico {
+.projetos__links,
+.projetos__links-basico {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: auto;
 }
 
-.links-projeto {
+.projetos__links {
     font-size: 12px;
     gap: 5rem;
 }
 
-.links-projeto-basico {
+.projetos__links-basico {
     font-size: 10px;
     gap: 2.5rem;
 }
 
 
-.links-projeto a,
-.links-projeto-basico a {
+.projetos__links a,
+.projetos__links-basico a {
     text-decoration: none;
 }
 
-.link,
-.projeto-basico-link {
+.projetos__link {
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 20px;
+    background-color: blue;
 }
 
-.link {
+.projetos__link {
     width: 7rem;
     height: 2.5rem;
 }
 
-.projeto-basico-link {
+.projetos__cartao--pequeno .projetos__link {
     width: 6rem;
     height: 2rem;
+    background-color: red;
 }
 
-.link:hover,
-.link:focus-within,
-.projeto-basico-link:hover,
-.projeto-basico-link:focus-within {
+.projetos__link:hover,
+.projetos__link:focus-within{
     background-color: #b9a9f8;
     color: #ffffff;
 }
 
-.link a,
-.projeto-basico-link a {
+.projetos__link a,
+.projetos__cartao--pequeno .projetos__link a {
     color: #1f2a44;
 }
 
@@ -507,8 +503,9 @@ body {
     cursor: pointer;
     border-radius: 8px;
     background-color: transparent;
-    color: #58a6ff;;
-    transition: 
+    color: #58a6ff;
+    ;
+    transition:
         background-color 0.3s,
         color 0.3s ease,
         transfrom 0.2s ease;
@@ -538,7 +535,7 @@ body {
     background-color: crimson;
 }
 
-.icones-habilidades {
+.habilidades__lista {
     display: flex;
     flex-wrap: wrap;
     min-height: auto;
@@ -546,7 +543,7 @@ body {
     background-color: #3C873A;
 }
 
-.icone {
+.habilidades__item {
     width: 6rem;
     height: 6rem;
     display: flex;
@@ -558,62 +555,53 @@ body {
     text-align: center;
 }
 
-.icone:hover {
+.habilidades__item:hover {
     background-color: #c0a8ff;
     transform: scale(1.05);
     transition: background-color 0.3s, transform 0.3s;
 }
 
-.git {
-    color: #F05033;
-}
-
-.git i,
-.github i,
-.html5 i,
-.css3 i,
-.javascript i,
-.react i,
-.node i,
-.deploy i,
-.express i,
-.api i {
+.habilidades__item {
     font-size: 2.7rem;
 }
 
-.github {
+.habilidades__item--git {
+    color: #F05033;
+}
+
+.habilidades__item--github {
     color: #181717;
 }
 
-.html5 {
+.habilidades__item--html5 {
     color: #E34F26;
 }
 
-.css3 {
+.habilidades__item--css3 {
     color: #1572B6;
 }
 
-.javascript {
+.habilidades__item--javascript {
     color: #c9b700;
 }
 
-.react {
+.habilidades__item--react {
     color: #61DAB5;
 }
 
-.icone.typescript img,
-.icone.vite img,
-.icone.tailwind img {
+.habilidades__item--typescript img,
+.habilidades__item--vite img,
+.habilidades__item--tailwind img {
     width: 2.7rem;
     height: auto;
 }
 
-.nomes-icones {
+.habilidades__nome {
     font-size: 14px;
     color: #0d111f;
 }
 
-.conhecimentos {
+.conhecimentos__lista {
     background-color: cornsilk;
 }
 
@@ -621,24 +609,24 @@ body {
     font-size: 1.5rem;
 }
 
-.node i{
+.habilidades__item--node i {
     color: #3C873A;
 }
 
-.express i {
-  color: #444;
+.habilidades__item--express i {
+    color: #444;
 }
 
-.api i {
-  color: #2563eb;
+.habilidades__item--api i {
+    color: #2563eb;
 }
 
-.deploy i {
-  color: #6366f1;
+.habilidades__item--render i {
+    color: #6366f1;
 }
 
 .certificados {
-    background-color:#25D366;
+    background-color: #25D366;
 }
 
 .lista-certificados {
@@ -648,7 +636,7 @@ body {
     background-color: yellow;
 }
 
-.cartao-certificado {
+.projetos__cartao-certificado {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -665,8 +653,8 @@ body {
     background-color: red;
 }
 
-.cartao-certificado:hover,
-.cartao-certificado:focus-within {
+.projetos__cartao-certificado:hover,
+.projetos__cartao-certificado:focus-within {
     box-shadow: 0 8px 24px rgba(108, 99, 255, 0.3);
     background-color: #1f2630;
     transform: translateY(-1px);
@@ -728,7 +716,7 @@ body {
     font-size: 1.6rem;
     font-weight: 500;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
-    transition: 
+    transition:
         transform 0.3s ease,
         opacity 0.3s ease,
         background-color 0.3s ease;
