@@ -1,5 +1,5 @@
 @media(max-width: 1280px) {
-    .topo-cabecalho {
+    .cabecalho__topo {
         padding-right: 2rem;
     }
 
@@ -27,15 +27,15 @@
         gap: 5px;
     }
 
-    .informacoes {
+    .apresentacao__info {
         gap: 2px;
     }
 
-    .nome {
+    .apresentacao__nome {
         font-size: 2.3rem;
     }
 
-    .profissao {
+    .apresentacao__cargo {
         font-size: 1.8rem;
     }
 
@@ -115,11 +115,11 @@
 }
 
 @media(max-width: 920px) {
-    .topo-cabecalho {
+    .cabecalho__topo {
         padding-right: 1rem;
     }
 
-    .menu {
+    .cabecalho__menu-toggle {
         display: flex;
         width: 2.2rem;
         height: 2.2rem;
@@ -179,7 +179,7 @@
     }
 
     .apresentacao,
-    .informacoes {
+    .apresentacao__info {
         align-items: center;
     }
 
@@ -189,7 +189,7 @@
         padding-top: 0;
     }
 
-    .informacoes,
+    .apresentacao__info,
     .minha-jornada,
     .meus-objetivos,
     .convite,
@@ -197,7 +197,7 @@
         text-align: center;
     }
 
-    .informacoes {
+    .apresentacao__info {
         gap: 20px;
     }
 
@@ -278,11 +278,11 @@
         height: auto;
     }
 
-    .nome {
+    .apresentacao__nome {
         font-size: 2rem;
     }
 
-    .profissao {
+    .apresentacao__cargo {
         font-size: 1.5rem;
     }
 
@@ -455,7 +455,7 @@
     }
 
     .apresentacao,
-    .informacoes {
+    .apresentacao__info {
         align-items: center;
         justify-content: center;
     }
@@ -465,7 +465,7 @@
         gap: 40px;
     }
 
-    .informacoes {
+    .apresentacao__info {
         text-align: center;
         gap: 20px;
     }

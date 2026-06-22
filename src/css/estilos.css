@@ -16,16 +16,16 @@ body {
     background-color: #E34F26;
 }
 
-.topo-cabecalho {
+.cabecalho__topo {
     display: flex;
     justify-content: space-between;
 }
 
-.logo {
+.cabecalho__logo {
     padding: 2rem 0 1rem 2rem;
 }
 
-.logo img {
+.cabecalho__logo img {
     width: 3rem;
     height: auto;
     border-radius: 50%;
@@ -75,12 +75,12 @@ body {
     outline: none;
 }
 
-.menu {
+.cabecalho__menu-toggle {
     display: none;
     cursor: pointer;
 }
 
-.hamburguer {
+.cabecalho__menu-icone {
     width: 30px;
     height: 3px;
     background-color: #C9D1D9;
@@ -88,8 +88,8 @@ body {
     position: relative;
 }
 
-.hamburguer::before,
-.hamburguer::after {
+.cabecalho__menu-icone::before,
+.cabecalho__menu-icone::after {
     content: "";
     position: absolute;
     width: 30px;
@@ -119,25 +119,25 @@ body {
     padding: 2rem 4rem 0 4rem;
 }
 
-.informacoes {
+.apresentacao__info {
     background-color: #2563eb;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.nome,
-.profissao {
+.apresentacao__nome,
+.apresentacao__cargo {
     color: #a2d2ff;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-.nome {
+.apresentacao__nome {
     font-size: 2.5rem;
     font-weight: 700;
 }
 
-.profissao {
+.apresentacao__cargo {
     font-size: 2rem;
     font-weight: 600;
 }
