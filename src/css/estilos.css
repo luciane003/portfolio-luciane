@@ -273,7 +273,7 @@ body {
     padding: 1rem;
 }
 
-.lista-certificados {
+.certificados__lista {
     height: auto;
 }
 
@@ -289,7 +289,7 @@ body {
 
 .projetos__tecnologias,
 .habilidades__lista,
-.lista-certificados,
+.certificados__lista,
 .projetos__cartao-certificado,
 .conteudo-rodape,
 .lista-contatos {
@@ -629,14 +629,14 @@ body {
     background-color: #25D366;
 }
 
-.lista-certificados {
+.certificados__lista {
     display: flex;
     padding: 1rem;
     flex-wrap: wrap;
     background-color: yellow;
 }
 
-.projetos__cartao-certificado {
+.certificados__cartao {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -653,23 +653,23 @@ body {
     background-color: red;
 }
 
-.projetos__cartao-certificado:hover,
-.projetos__cartao-certificado:focus-within {
+.certificados__cartao:hover,
+.certificados__cartao:focus-within {
     box-shadow: 0 8px 24px rgba(108, 99, 255, 0.3);
     background-color: #1f2630;
     transform: translateY(-1px);
 }
 
-.nome-certificado {
+.certificados__nome {
     color: #ffffff;
 }
 
-.texto-certificado {
+.certificados__texto {
     color: #c9d1d9;
     font-size: 14px;
 }
 
-.btn-certificado {
+.certificados__botao {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -681,19 +681,19 @@ body {
     margin-top: auto;
 }
 
-.btn-certificado:hover,
-.btn-certificado:focus-within {
+.certificados__botao:hover,
+.certificados__botao:focus-within {
     transform: scale(1.1);
     cursor: pointer;
     background-color: #574fd6;
 }
 
-.btn-certificado:focus-within {
+.certificados__botao:focus-within {
     outline: 2px solid #bfa6ff;
     outline-offset: 2px;
 }
 
-.btn-certificado a {
+.certificados__botao a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
@@ -732,30 +732,30 @@ body {
     background-color: #F05033;
 }
 
-.conteudo-rodape {
+.contatos__conteudo {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: red;
 }
 
-.contatos .imagem-pixar-luciane {
+.contatos .contatos__imagem {
     border-radius: 45%;
     width: 7rem;
     height: auto;
     border: 3px solid #6c63ff;
 }
 
-.lista-contatos {
+.contatos__lista {
     background-color: beige;
     display: flex;
 }
 
-.lista-contatos li {
+.contatos__lista li {
     list-style: none;
 }
 
-.contato a {
+.contatos__item a {
     display: inline-flex;
     width: 30px;
     height: 30px;
@@ -769,35 +769,35 @@ body {
     text-decoration: none;
 }
 
-.contato a:hover,
-.contato a:focus {
+.contatos__item a:hover,
+.contatos__item a:focus {
     border-color: #6c63ff;
     color: #8a82ff;
 }
 
-.contato-github a {
+.contatos__item--github a {
     color: #c9d1d9;
 }
 
-.contato-linkedin a {
+.contatos__item--linkedin a {
     color: #0A66C2;
 }
 
-.contato-whatsaap a {
+.contatos__item--whatsaap a {
     color: #25D366;
 }
 
-.contato-email a {
+.contatos__item--email a {
     color: #f9a825;
 }
 
-.frase-final {
+.contatos__mensagem {
     color: #c9d1d9;
     font-style: italic;
     font-size: 14px;
 }
 
-.desenvolvido {
+.contatos__credito {
     color: #6e7681;
     font-size: 14px;
 
