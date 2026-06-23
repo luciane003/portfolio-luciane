@@ -1,7 +1,7 @@
 const secaoProjetos = document.getElementById('projetos');
 const projetosExtras = document.querySelectorAll('.projetos__cartao--escondido');
-const btnVerMais = document.getElementById('btn-ver-mais');
-const btnVerMenos = document.getElementById("btn-ver-menos");
+const btnVerMais = document.getElementById('button-more');
+const btnVerMenos = document.getElementById("button-less");
 const btnTopo = document.getElementById('btn-topo');
 const elementos = document.querySelectorAll('.animacao-scroll');
 
