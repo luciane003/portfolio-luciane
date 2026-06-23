@@ -154,7 +154,6 @@ body {
 .apresentacao__curriculo,
 .imagem-seta,
 .projetos__link,
-.projetos__cartao--pequeno
 .projetos__link,
 .habilidades__item {
     background-color: #d0bfff;
@@ -313,8 +312,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
-    text-align:center;
+    /* justify-content: center;
+    /* text-align:center; */
     padding: 17px;
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -349,6 +348,7 @@ body {
 .projetos__informacoes {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding-top: 10px;
     gap: 12px;
     height: 18rem;  
@@ -578,6 +578,7 @@ body {
 
 .subtitulo-conhecimento {
     font-size: 1.5rem;
+    margin-top: 2rem;
 }
 
 .habilidades__item--node i {
