@@ -138,12 +138,6 @@
         padding: 1rem;
     }
 
-    .sobremim {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .sobremim,
     .projetos,
     .contatos {
@@ -246,6 +240,12 @@
         height: auto;
     }
 
+    .sobremim {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .sobremim__texto {
         font-size: 1.09rem;
     }
@@ -274,7 +274,7 @@
         height: auto;
     }
 
-    .lista-certificados {
+    .certificados__lista {
         justify-content: center;
 
     }
