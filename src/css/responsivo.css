@@ -5,8 +5,11 @@
 
     .projetos__cartao--pequeno {
         width: 22rem;
-        height: 28rem;
     }
+
+    .projetos__cartao--pequeno .projetos__informacoes {
+        height: 15rem;
+    } 
 }
 
 @media(max-width:1024px) {
@@ -44,7 +47,7 @@
     }
 
     .imagem-perfil img {
-        width: 15rem;
+        width: 16rem;
         height: auto;
     }
 
@@ -54,15 +57,6 @@
 
     .sobremim__texto {
         font-size: 1.07rem;
-    }
-
-    .projeto {
-        width: 26rem;
-        height: 29rem;
-    }
-
-    .projetos__cartao--pequeno {
-        height: 25rem;
     }
 
     .projetos__titulo {
@@ -91,21 +85,12 @@
         height: 15rem;
     }
 
-    .texto-certificado {
+    .certificado__texto {
         font-size: 12px;
     }
 
-    .btn-certificado {
-        width: 5rem;
-        height: 2.2rem;
-    }
-
-    .btn-certificado a {
-        font-size: 10px;
-    }
-
-    .frase-final,
-    .desenvolvido {
+    .contatos__mensagem,
+    .contatos__credito {
         font-size: 12px;
     }
 }
@@ -169,7 +154,6 @@
 
     .sobremim,
     .projetos,
-    .conteudo-rodape,
     .contatos {
         height: auto;
     }
@@ -185,15 +169,8 @@
         padding-top: 0;
     }
 
-    .apresentacao__informacoes,
-    .minha-jornada,
-    .meus-objetivos,
-    .convite,
-    .contato {
+    .apresentacao__informacoes{
         text-align: center;
-    }
-
-    .apresentacao__informacoes {
         gap: 20px;
     }
 
@@ -206,12 +183,12 @@
         display: none;
     }
 
-    .projeto {
-        width: 24rem;
+    .projetos__informacoes {
+        height: 15rem;
     }
 
     .projetos__texto,
-    .texto-certificado {
+    .certificados__texto {
         font-size: 10px;
     }
 
@@ -219,19 +196,14 @@
         gap: 2rem;
     }
 
-    .projetos__cartao-certificado {
+    .certificados__cartao {
         height: 13rem;
     }
 }
 
 @media(max-width: 854px) {
-    .projeto {
-        width: 23rem;
-        height: 26rem;
-    }
-
     .projetos__cartao--pequeno {
-        width: 20rem;
+        width: 21rem;
     }
 
     .habilidades__item {
