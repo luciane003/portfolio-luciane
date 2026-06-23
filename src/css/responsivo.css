@@ -129,9 +129,34 @@
         gap: 2rem;
     }
 
+    .apresentacao {
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 0;
+    }
+
+    .apresentacao,
+    .apresentacao__informacoes {
+        align-items: center;
+    }
+
+    .apresentacao__informacoes{
+        text-align: center;
+        gap: 20px;
+    }
+
     .apresentacao__descricao {
         align-items: center;
         padding: 0;
+    }
+
+    .imagem-perfil img {
+        width: 13rem;
+        height: auto;
+    }
+
+    .seta-baixo {
+        display: none;
     }
 
     .secao {
@@ -142,31 +167,6 @@
     .projetos,
     .contatos {
         height: auto;
-    }
-
-    .apresentacao,
-    .apresentacao__informacoes {
-        align-items: center;
-    }
-
-    .apresentacao {
-        flex-direction: column;
-        gap: 2rem;
-        padding-top: 0;
-    }
-
-    .apresentacao__informacoes{
-        text-align: center;
-        gap: 20px;
-    }
-
-    .imagem-perfil img {
-        width: 13rem;
-        height: auto;
-    }
-
-    .seta-baixo {
-        display: none;
     }
 
     .projetos__cartao {
@@ -202,12 +202,6 @@
         font-size: 12px;
     }
 }
-
-@media (max-width: 820px) {
-
-}
-
-@media (max-width: 768px) {}
 
 @media (max-width: 540px) {
     .cabecalho {
@@ -257,9 +251,6 @@
     .habilidades__item {
         width: 4rem;
         height: 4rem;
-    }
-
-    .habilidades__item{
         font-size: 2rem;
     }
 
@@ -276,11 +267,6 @@
 
     .certificados__lista {
         justify-content: center;
-
-    }
-
-    .projetos__cartao-certificado {
-        width: 15rem;
     }
 
     #btn-topo {
@@ -368,15 +354,15 @@
         min-height: auto;
     }
 
+    .apresentacao {
+        flex-direction: column;
+        gap: 40px; 
+    }
+
     .apresentacao,
     .apresentacao__informacoes {
         align-items: center;
         justify-content: center;
-    }
-
-    .apresentacao {
-        flex-direction: column;
-        gap: 40px; 
     }
 
     .apresentacao__informacoes {
