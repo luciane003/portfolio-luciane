@@ -2,14 +2,6 @@
     .cabecalho__topo {
         padding-right: 2rem;
     }
-
-    .projetos__cartao--pequeno {
-        width: 22rem;
-    }
-
-    .projetos__cartao--pequeno .projetos__informacoes {
-        height: 15rem;
-    } 
 }
 
 @media(max-width:1024px) {
@@ -183,6 +175,11 @@
         display: none;
     }
 
+    .projetos__cartao {
+        width: 23rem;
+    }
+
+
     .projetos__informacoes {
         height: 15rem;
     }
@@ -202,10 +199,6 @@
 }
 
 @media(max-width: 854px) {
-    .projetos__cartao--pequeno {
-        width: 21rem;
-    }
-
     .habilidades__item {
         width: 5rem;
         height: 5rem;
@@ -217,26 +210,7 @@
 }
 
 @media (max-width: 820px) {
-    .sobremim__descricao {
-        width: 92vw;
-    }
 
-    .projeto {
-        width: 21rem;
-        height: 26rem;
-    }
-
-    .projetos__cartao--pequeno {
-        width: 19rem;
-    }
-
-    .lista-certificados {
-        max-width: 45rem;
-    }
-
-    .projetos__lista {
-        padding-left: 0;
-    }
 }
 
 @media (max-width: 768px) {}
@@ -274,14 +248,6 @@
 
     .sobremim__texto {
         font-size: 1.09rem;
-    }
-
-    .projetos__lista {
-        justify-content: center;
-    }
-
-    .projetos__cartao--pequeno {
-        height: 24rem;
     }
 
     .habilidades__lista {
@@ -323,13 +289,13 @@
         font-size: 1.3rem;
     }
 
-    .contatos .imagem-pixar-luciane {
+    .contatos .contatos__imagem {
         width: 6rem;
         height: auto;
     }
 
-    .frase-final,
-    .desenvolvido {
+    .contatos__mensagem,
+    .contatos__credito {
         font-size: 10px;
     }
 }
@@ -341,10 +307,6 @@
 
     .sobremim__texto {
         font-size: 1rem;
-    }
-
-    .frase-final {
-        text-align: center;
     }
 
 }
@@ -373,7 +335,7 @@
         font-size: 1.1rem;
     }
 
-    .contatos .imagem-pixar-luciane {
+    .contatos .contatos__imagem {
         width: 5rem;
         height: auto;
     }
@@ -392,10 +354,6 @@
     .habilidades__nome {
         font-size: 6px;
     }
-
-    .conteudo-rodape {
-        max-width: 20rem;
-    }
 }
 
 @media (max-width: 360px) {
@@ -406,10 +364,7 @@
 
 @media(min-width: 1024px) and (min-height: 1000px) {
 
-    .cabecalho,
-    .sobremim .resumo,
-    .habilidades,
-    .certificados {
+    .cabecalho {
         min-height: auto;
     }
 
@@ -421,7 +376,7 @@
 
     .apresentacao {
         flex-direction: column;
-        gap: 40px;
+        gap: 40px; 
     }
 
     .apresentacao__informacoes {
@@ -435,13 +390,5 @@
 
     .seta-baixo {
         display: none;
-    }
-
-    .contato {
-        text-align: center;
-    }
-
-    .contatos {
-        height: auto;
     }
 }
