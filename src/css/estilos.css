@@ -644,10 +644,11 @@ body {
     background-color: #161b22;
     color: #f0f0f0;
     width: 18rem;
-    height: 17rem;
+    /* height: 17rem; */
     max-width: 100%;
     padding: 1rem;
     border-radius: 20px;
+    gap: 1rem;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
     transition: transform 0.4s ease, box-shadow 0.4s ease;
     background-color: red;
@@ -673,8 +674,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 7rem;
-    height: 3rem;
+    width: 6rem;
+    height: 2rem;
     background-color: #6c63ff;
     border-radius: 10px;
     transition: transform 0.3s ease;
@@ -696,7 +697,7 @@ body {
 .certificados__botao a {
     text-decoration: none;
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 #btn-topo {
@@ -737,6 +738,7 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: red;
+    gap: 12px;
 }
 
 .contatos .contatos__imagem {
