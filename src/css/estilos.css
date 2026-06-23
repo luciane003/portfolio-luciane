@@ -353,7 +353,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    height: 20rem;
+    height: 18rem; 
     padding-top: 1rem;
     background-color: black;
 }
