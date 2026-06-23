@@ -156,15 +156,19 @@ body {
     background-color: #d0bfff;
 }
 
-.apresentacao__curriculo {
+.apresentacao__curriculo,
+.projetos__link,
+.certificados__botao {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.apresentacao__curriculo {
     width: 10rem;
     height: 3rem;
     margin-top: 2rem;
     border-radius: 10px;
-    background-color: #d0bfff;
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
@@ -430,9 +434,6 @@ body {
 }
 
 .projetos__links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     font-size: 12px;
     gap: 5rem;
     margin-top: auto;
@@ -642,9 +643,6 @@ body {
 }
 
 .certificados__botao {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     width: 6rem;
     height: 2rem;
     background-color: #6c63ff;
