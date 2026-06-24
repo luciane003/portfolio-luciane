@@ -378,7 +378,7 @@ body {
 
 .projects__technologies,
 .skills__list,
-.contatos__lista {
+.contacts__list {
     gap: 20px;
 }
 
@@ -668,7 +668,7 @@ body {
     background-color: #F05033;
 }
 
-.contatos__conteudo {
+.contacts__content {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -676,23 +676,23 @@ body {
     gap: 12px;
 }
 
-.contatos .contatos__imagem {
+.contacts .contacts__image {
     border-radius: 45%;
     width: 7rem;
     height: auto;
     border: 3px solid #6c63ff;
 }
 
-.contatos__lista {
+.contacts__list {
     background-color: beige;
     display: flex;
 }
 
-.contatos__lista li {
+.contacts__list li {
     list-style: none;
 }
 
-.contatos__item a {
+.contacts__item a {
     display: inline-flex;
     width: 30px;
     height: 30px;
@@ -706,36 +706,36 @@ body {
     text-decoration: none;
 }
 
-.contatos__item a:hover,
-.contatos__item a:focus {
+.contacts__item a:hover,
+.contacts__item a:focus {
     border-color: #6c63ff;
     color: #8a82ff;
 }
 
-.contatos__item--github a {
+.contacts__item--github a {
     color: #c9d1d9;
 }
 
-.contatos__item--linkedin a {
+.contacts__item--linkedin a {
     color: #0A66C2;
 }
 
-.contatos__item--whatsaap a {
+.contacts__item--whatsaap a {
     color: #25D366;
 }
 
-.contatos__item--email a {
+.contacts__item--email a {
     color: #f9a825;
 }
 
-.contatos__mensagem {
+.contacts__message {
     color: #c9d1d9;
     font-style: italic;
     font-size: 14px;
     text-align: center;
 }
 
-.contatos__credito {
+.contacts__credit {
     color: #6e7681;
     font-size: 14px;
 }
