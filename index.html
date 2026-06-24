@@ -25,49 +25,49 @@
 </head>
 
 <body>
-    <header id="topo" class="cabecalho">
-        <div class="cabecalho__topo">
-            <div class="cabecalho__logo">
+    <header id="home" class="header">
+        <div class="header__top">
+            <div class="header__logo">
                 <img src="./src/imagens/logo.png" alt="logo">
             </div>
-            <nav class="cabecalho__navegacao" role="navigation" aria-label="Menu principal">
-                <input type="checkbox" id="menu-hamburguer">
-                <label for="menu-hamburguer" class="cabecalho__menu-alternar" aria-label="Abrir menu">
-                    <span class="cabecalho__menu-icone"></span>
+            <nav class="header__nav" role="navigation" aria-label="Menu principal">
+                <input type="checkbox" id="nav-toggle">
+                <label for="nav-toggle" class="header__toggle" aria-label="Abrir menu">
+                    <span class="header__icon"></span>
                 </label>
 
                 <ul>
-                    <li><a href="#sobremim">Sobre mim</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#certificados">Certificados</a></li>
-                    <li><a href="#contatos">Contatos</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#certificates">Certificados</a></li>
+                    <li><a href="#contact">Contatos</a></li>
                 </ul>
             </nav>
         </div>
 
-        <section class="apresentacao">
-            <div class="apresentacao__informacoes">
-                <h1 class="apresentacao__nome">Luciane Kellen</h1>
-                <h2 class="apresentacao__cargo">Desenvolvedora Frontend Júnior</h2>
-                <p class="apresentacao__descricao">Desenvolvedora front-end focada na criação de interfaces web
+        <section class="hero">
+            <div class="hero__info">
+                <h1 class="hero__name">Luciane Kellen</h1>
+                <h2 class="hero__role">Desenvolvedora Frontend Júnior</h2>
+                <p class="hero__description">Desenvolvedora front-end focada na criação de interfaces web
                     responsivas e
                     funcionais com HTML, CSS, JavaScript e React.</p>
-                <div class="apresentacao__curriculo">
+                <div class="hero__resume">
                     <a href="./docs/Luciane_Kellen_Frontend.pdf" target="_blank" rel="noopener"
                         aria-label="Abrir currículo de Luciane Kellen em nova aba">
                         Ver Currículo
                     </a>
                 </div>
             </div>
-            <div class="imagem-perfil">
+            <div class="hero__image">
                 <img src="./src/imagens/foto-de-perfil.jpg"
                     alt="Foto de perfil de Luciane Kellen, desenvolvedora frontend">
             </div>
         </section>
 
-        <div class="seta-baixo">
-            <div class="imagem-seta">
+        <div class="hero__scroll">
+            <div class="hero__scroll-icon">
                 <img src="./src/imagens/seta-baixo.svg" alt="Seta para baixo">
             </div>
         </div>
@@ -75,15 +75,15 @@
     </header>
 
     <main>
-        <section id="sobremim" class="secao sobremim">
-            <h2 class="subtitulo">Sobre mim</h2>
-            <div class="sobremim__descricao">
-                <p class="sobremim__texto">
+        <section id="about" class="section about">
+            <h2 class="section__title">Sobre mim</h2>
+            <div class="about__content">
+                <p class="about__text">
                     <strong>Objetivo:</strong> Atuar como Desenvolvedora Front-end Júnior, contribuindo na criação de
                     interfaces modernas, acessíveis e na resolução de problemas através de código limpo e responsivo.
                 </p>
 
-                <p class="sobremim__texto">
+                <p class="about__text">
                     Sou Desenvolvedora Front-end Júnior em transição de carreira para a área de tecnologia. Tenho
                     experiência sólida com HTML, CSS e JavaScript, além de conhecimentos em TypeScript, React e
                     TailwindCSS. Também possuo familiaridade com consumo de APIs e integração básica com back-end em
@@ -95,6 +95,7 @@
 
         <section id="projetos" class="secao projetos">
             <h2 class="subtitulo">Projetos</h2>
+            
             <div class="projetos__lista">
                 <div class="projetos__cartao animacao-scroll">
                     <div class="projetos__imagem">

@@ -1,53 +1,53 @@
 @media(max-width: 1280px) {
-    .cabecalho__topo {
+    .header__top {
         padding-right: 2rem;
     }
 }
 
 @media(max-width:1024px) {
-    .cabecalho__navegacao ul {
+    .header__nav ul {
         gap: 2rem;
     }
 
-    .cabecalho__navegacao ul li a {
+    .header__nav ul li a {
         font-size: 0.75rem;
     }
 
-    .apresentacao {
+    .hero {
         padding: 1.8rem;
         gap: 5px;
     }
 
-    .apresentacao__informacoes {
+    .hero__info {
         gap: 2px;
     }
 
-    .apresentacao__nome {
+    .hero__name {
         font-size: 2.3rem;
     }
 
-    .apresentacao__cargo {
+    .hero__role {
         font-size: 1.8rem;
     }
 
-    .apresentacao__descricao {
+    .hero__description {
         font-size: 1.3rem;
     }
 
-    .apresentacao__curriculo {
+    .hero__resume {
         margin-top: 1rem;
     }
 
-    .imagem-perfil img {
+    .hero_image img {
         width: 16rem;
         height: auto;
     }
 
-    .seta-baixo {
+    .hero__scroll {
         bottom: 0.8%;
     }
 
-    .sobremim__texto {
+    .about__text {
         font-size: 1.07rem;
     }
 
@@ -80,11 +80,11 @@
 }
 
 @media(max-width: 920px) {
-    .cabecalho__topo {
+    .header__top {
         padding-right: 1rem;
     }
 
-    .cabecalho__menu-alternar {
+    .header__toggle {
         display: flex;
         width: 2.2rem;
         height: 2.2rem;
@@ -97,7 +97,7 @@
         top: 2.2rem;
     }
 
-    .cabecalho__navegacao ul {
+    .header__nav ul {
         display: none;
         flex-direction: column;
         position: absolute;
@@ -112,50 +112,50 @@
         text-align: center;
     }
 
-    #menu-hamburguer:checked~ul {
+    #nav-toggle:checked~ul {
         display: flex;
     }
 
-    .cabecalho {
+    .header {
         min-height: auto;
         gap: 2rem;
     }
 
-    .apresentacao {
+    .hero {
         flex-direction: column;
         gap: 2rem;
         padding-top: 0;
     }
 
-    .apresentacao,
-    .apresentacao__informacoes {
+    .hero,
+    .hero__info {
         align-items: center;
     }
 
-    .apresentacao__informacoes{
+    .hero__info{
         text-align: center;
         gap: 20px;
     }
 
-    .apresentacao__descricao {
+    .hero__description {
         align-items: center;
         padding: 0;
     }
 
-    .imagem-perfil img {
+    .hero__image img {
         width: 13rem;
         height: auto;
     }
 
-    .seta-baixo {
+    .hero__scroll {
         display: none;
     }
 
-    .secao {
+    .section {
         padding: 1rem;
     }
 
-    .sobremim,
+    .about,
     .projetos,
     .contatos {
         height: auto;
@@ -182,43 +182,43 @@
 }
 
 @media (max-width: 540px) {
-    .cabecalho {
+    .header {
         height: auto;
     }
 
-    .apresentacao__nome {
+    .hero__name {
         font-size: 2rem;
     }
 
-    .apresentacao__cargo {
+    .hero__role {
         font-size: 1.5rem;
     }
 
-    .apresentacao__descricao {
+    .hero__description {
         font-size: 1rem;
     }
 
-    .apresentacao__curriculo {
+    .hero__resume {
         width: 8rem;
         height: 2.5rem;
     }
 
-    .apresentacao__curriculo a {
+    .hero__resume a {
         font-size: 14px;
     }
 
-    .imagem-perfil img {
+    .hero__image img {
         width: 10rem;
         height: auto;
     }
 
-    .sobremim {
+    .about {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .sobremim__texto {
+    .about__text {
         font-size: 1.09rem;
     }
 
@@ -265,32 +265,32 @@
 }
 
 @media (max-width: 431px) {
-    .apresentacao {
+    .hero {
         padding: 1rem;
     }
 
-    .sobremim__texto {
+    .about__text {
         font-size: 1rem;
     }
 
 }
 
 @media (max-width: 415px) {
-    .subtitulo {
+    .section__title {
         font-size: 1.9rem;
     }
 }
 
 @media(max-width: 391px) {
-    .subtitulo {
+    .section__title {
         font-size: 1.7rem;
     }
 
-    .sobremim__texto {
+    .about__text {
         font-size: 1rem;
     }
 
-    .imagem-seta {
+    .hero__scroll-icon {
         width: 50px;
         height: 50px;
     }
@@ -306,7 +306,7 @@
 }
 
 @media(max-width: 376px) {
-    .subtitulo {
+    .section__title {
         font-size: 1.6rem;
     }
 
@@ -321,38 +321,38 @@
 }
 
 @media (max-width: 360px) {
-    .subtitulo {
+    .section__title {
         font-size: 1.5rem;
     }
 }
 
 @media(min-width: 1024px) and (min-height: 1000px) {
 
-    .cabecalho {
+    .header {
         min-height: auto;
     }
 
-    .apresentacao {
+    .hero {
         flex-direction: column;
         gap: 40px; 
     }
 
-    .apresentacao,
-    .apresentacao__informacoes {
+    .hero,
+    .hero__info {
         align-items: center;
         justify-content: center;
     }
 
-    .apresentacao__informacoes {
+    .hero__info {
         text-align: center;
         gap: 20px;
     }
 
-    .apresentacao__descricao {
+    .hero__description {
         padding: 0;
     }
 
-    .seta-baixo {
+    .hero__scroll {
         display: none;
     }
 }

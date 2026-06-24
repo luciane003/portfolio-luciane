@@ -1,4 +1,4 @@
-const secaoProjetos = document.getElementById('projetos');
+// const secaoProjetos = document.getElementById('projetos');
 const projetosExtras = document.querySelectorAll('.projetos__cartao--escondido');
 const btnVerMais = document.getElementById('button-more');
 const btnVerMenos = document.getElementById("button-less");
@@ -22,10 +22,10 @@ function esconderProjetos() {
     btnVerMais.classList.remove('esconder');
     btnVerMenos.classList.add('esconder');
 
-    secaoProjetos.scrollIntoView({
-        behavior: 'smooth',
-        block: 'start'
-    });
+    // secaoProjetos.scrollIntoView({
+    //     behavior: 'smooth',
+    //     block: 'start'
+    // });
 };
 
 btnVerMais.addEventListener("click", mostrarProjetos);

@@ -7,7 +7,7 @@ body {
     max-width: 100vw;
 }
 
-.cabecalho {
+.header {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -16,34 +16,34 @@ body {
     background-color: #E34F26;
 }
 
-.cabecalho__topo {
+.header__top {
     display: flex;
     justify-content: space-between;
 }
 
-.cabecalho__logo {
+.header__logo {
     padding: 2rem 0 1rem 2rem;
 }
 
-.cabecalho__logo img {
+.header__logo img {
     width: 3rem;
     height: auto;
     border-radius: 50%;
 }
 
-.cabecalho__navegacao {
+.header__nav {
     padding: 2rem 1rem 1rem 0;
     position: relative;
 }
 
-.cabecalho__navegacao ul {
+.header__nav ul {
     display: flex;
     list-style: none;
     text-decoration: none;
     gap: 3rem;
 }
 
-.cabecalho__navegacao ul li a {
+.header__nav ul li a {
     display: block;
     text-decoration: none;
     background-color: #1f2a44;
@@ -57,8 +57,8 @@ body {
     border: 1px solid transparent;
 }
 
-.cabecalho__navegacao ul li a:hover,
-.cabecalho__navegacao ul li a:focus {
+.header__nav ul li a:hover,
+.header__nav ul li a:focus {
     transform: scale(1.1);
     border-radius: 10px;
     cursor: pointer;
@@ -66,8 +66,8 @@ body {
     box-shadow: 0 8px 16px rgba(162, 210, 255, 0.3);
 }
 
-.cabecalho__navegacao ul li a:focus,
-.apresentacao__curriculo a,
+.header__nav ul li a:focus,
+.hero__resume a,
 .projetos__link a,
 .projetos__cartao-certificado:focus-within,
 .btn-certificado a,
@@ -75,12 +75,12 @@ body {
     outline: none;
 }
 
-.cabecalho__menu-alternar {
+.header__toggle {
     cursor: pointer;
     display: none;
 }
 
-.cabecalho__menu-icone {
+.header__icon {
     width: 30px;
     height: 3px;
     background-color: #C9D1D9;
@@ -88,8 +88,8 @@ body {
     position: relative;
 }
 
-.cabecalho__menu-icone::before,
-.cabecalho__menu-icone::after {
+.header__icon::before,
+.header__icon::after {
     content: "";
     position: absolute;
     width: 30px;
@@ -100,49 +100,49 @@ body {
     left: 0;
 }
 
-.cabecalho__menu-icone::before {
+.header__icon::before {
     top: -8px;
 }
 
-.cabecalho__menu-icone::after {
+.header__icon::after {
     top: 8px;
 }
 
-#menu-hamburguer {
+#nav-toggle {
     display: none;
 }
 
-.apresentacao {
+.hero {
     background-color: #25D366;
     display: flex;
     padding: 2rem 4rem 0 4rem;
     gap: 5rem;
 }
 
-.apresentacao__informacoes {
+.hero__info {
     background-color: #2563eb;
     display: flex;
     flex-direction: column;
     gap: 15px;
 }
 
-.apresentacao__nome,
-.apresentacao__cargo {
+.hero__name,
+.hero__role {
     color: #a2d2ff;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
 }
 
-.apresentacao__nome {
+.hero__name {
     font-size: 2.5rem;
     font-weight: 700;
 }
 
-.apresentacao__cargo {
+.hero__role {
     font-size: 2rem;
     font-weight: 600;
 }
 
-.apresentacao__descricao {
+.hero__description {
     color: #d0bfff;
     font-size: 1.5rem;
     padding: 1em 2em 0 0;
@@ -151,12 +151,12 @@ body {
     background-color: #58a6ff;
 }
 
-.apresentacao__curriculo,
+.hero__resume,
 .projetos__link {
     background-color: #d0bfff;
 }
 
-.apresentacao__curriculo,
+.hero__resume,
 .projetos__link,
 .certificados__botao {
     display: flex;
@@ -164,7 +164,7 @@ body {
     justify-content: center;
 }
 
-.apresentacao__curriculo {
+.hero__resume {
     width: 10rem;
     height: 3rem;
     margin-top: 2rem;
@@ -172,33 +172,33 @@ body {
     transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.apresentacao__curriculo:hover,
-.apresentacao__curriculo:focus-within {
+.hero__resume:hover,
+.hero__resume:focus-within {
     transform: translateY(-5px);
     background-color: #bfa6ff;
     cursor: pointer;
 }
 
-.apresentacao__curriculo:focus-within,
+.hero__resume:focus-within,
 .projetos__link:focus-within {
     outline: 2px solid #bfa6ff;
     outline-offset: 4px;
 }
 
-.apresentacao__curriculo a {
+.hero__resume a {
     text-decoration: none;
     color: #1f2a44;
     font-size: 1rem;
     font-weight: 500;
 }
 
-.imagem-perfil {
+.hero__image {
     background-color: red;
     display: flex;
     align-items: center;
 }
 
-.imagem-perfil img {
+.hero__image img {
     width: 18rem;
     height: 18rem;
     border-radius: 50%;
@@ -221,7 +221,7 @@ body {
     }
 }
 
-.seta-baixo {
+.hero__scroll {
     bottom: 5%;
     left: 50%;
     animation: sobedesce 1.2s infinite;
@@ -229,7 +229,12 @@ body {
     background-color: #a2d2ff;
 }
 
-.imagem-seta {
+.hero__scrool img {
+    width: 45px;
+    height: auto;
+}
+
+.hero__scroll-icon{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -240,25 +245,20 @@ body {
     background-color: #d0bfff;
 }
 
-.seta-baixo img {
-    width: 45px;
-    height: auto;
-}
-
-.secao {
+.section {
     padding: 2rem;
     background-color: brown;
 }
 
-.sobremim {
+.about {
     background-color: #f9a825;
 }
 
-.subtitulo {
+.section__title {
     font-size: 2rem;
 }
 
-.subtitulo,
+.section__title,
 .subtitulo-conhecimento {
     color: #b9a9f8;
     font-weight: 600;
@@ -266,14 +266,14 @@ body {
     background-color: #0A66C2;
 }
 
-.sobremim__descricao {
+.about__content {
     background-color: rgba(208, 191, 255, 0.1);
     margin-bottom: 2rem;
     border-radius: 20px;
     padding: 1rem;
 }
 
-.sobremim__texto {
+.about__text {
     color: #d9dbf1;
     font-size: 1.25rem;
     padding: 0.50rem;
