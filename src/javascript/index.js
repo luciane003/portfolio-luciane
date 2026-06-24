@@ -1,17 +1,17 @@
 // const secaoProjetos = document.getElementById('projetos');
-const projetosExtras = document.querySelectorAll('.projetos__cartao--escondido');
+const projetosExtras = document.querySelectorAll('.projects__card--hidden');
 const btnVerMais = document.getElementById('button-more');
 const btnVerMenos = document.getElementById("button-less");
-const btnTopo = document.getElementById('btn-topo');
-const elementos = document.querySelectorAll('.animacao-scroll');
+const btnTopo = document.getElementById('back-to-top');
+const elementos = document.querySelectorAll('.scroll-animation');
 
 function mostrarProjetos() {
     projetosExtras.forEach(projeto => {
         projeto.classList.add('mostrar-projeto')
     });
 
-    btnVerMais.classList.add('esconder');
-    btnVerMenos.classList.remove('esconder');
+    btnVerMais.classList.add('hidden');
+    btnVerMenos.classList.remove('hidden');
 };
 
 function esconderProjetos() {
@@ -19,8 +19,8 @@ function esconderProjetos() {
         projeto.classList.remove('mostrar-projeto')
     });
 
-    btnVerMais.classList.remove('esconder');
-    btnVerMenos.classList.add('esconder');
+    btnVerMais.classList.remove('hidden');
+    btnVerMenos.classList.add('hidden');
 
     // secaoProjetos.scrollIntoView({
     //     behavior: 'smooth',
@@ -34,9 +34,9 @@ btnVerMenos.addEventListener("click", esconderProjetos);
 
 window.addEventListener('scroll', () => {
     if(window.scrollY > 300) {
-        btnTopo.classList.remove('esconder');
+        btnTopo.classList.remove('hidden');
     } else {
-        btnTopo.classList.add('esconder');
+        btnTopo.classList.add('hidden');
     }
 });
 

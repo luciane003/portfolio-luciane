@@ -51,19 +51,7 @@
         font-size: 1.07rem;
     }
 
-    .projetos__titulo {
-        font-size: 1rem;
-    }
-
-    .projetos__titulo-tecnologias {
-        font-size: 14px;
-    }
-
-    .projetos__tecnologias {
-        font-size: 1rem;
-    }
-
-    .projetos__links {
+    .projects__links {
         font-size: 11px;
         gap: 3rem;
     }
@@ -161,22 +149,22 @@
         height: auto;
     }
 
-    .projetos__cartao {
+    .projects__card {
         width: 23rem;
     }
 
-    .projetos__links {
+    .projects__links {
         gap: 2rem;
     }
 }
 
 @media(max-width: 854px) {
-    .habilidades__item {
+    .skills__item {
         width: 5rem;
         height: 5rem;
     }
 
-    .habilidades__nome {
+    .skills__name {
         font-size: 12px;
     }
 }
@@ -222,32 +210,32 @@
         font-size: 1.09rem;
     }
 
-    .habilidades__lista {
+    .skills__list {
         justify-content: center;
     }
 
-    .habilidades__item {
+    .skills__item {
         width: 4rem;
         height: 4rem;
         font-size: 2rem;
     }
 
-    .habilidades__nome {
+    .skills__name {
         font-size: 9px;
     }
 
-    .habilidades__item--typescript img,
-    .habilidades__item--vite img,
-    .habilidades__item--tailwind img {
+    .skills__item--typescript img,
+    .skills__item--vite img,
+    .skills__item--tailwind img {
         width: 2rem;
         height: auto;
     }
 
-    .certificados__lista {
+    .certificates__list {
         justify-content: center;
     }
 
-    #btn-topo {
+    #back-to-top {
         width: 28px;
         height: 28px;
         font-size: 1.3rem;
@@ -295,7 +283,7 @@
         height: 50px;
     }
 
-    #btn-topo {
+    #back-to-top {
         font-size: 1.1rem;
     }
 
@@ -310,12 +298,12 @@
         font-size: 1.6rem;
     }
 
-    .habilidades__item {
+    .skills__item {
         width: 3rem;
         height: 3rem;
     }
 
-    .habilidades__nome {
+    .skills__name {
         font-size: 6px;
     }
 }
