@@ -1,59 +1,54 @@
 // const secaoProjetos = document.getElementById('projetos');
-const projetosExtras = document.querySelectorAll('.projects__card--hidden');
-const btnVerMais = document.getElementById('button-more');
-const btnVerMenos = document.getElementById("button-less");
-const btnTopo = document.getElementById('back-to-top');
-const elementos = document.querySelectorAll('.scroll-animation');
+const projectsExtras = document.querySelectorAll('.projects__card--hidden');
+const btnShowMore = document.getElementById('button-more');
+const btnShowLess = document.getElementById("button-less");
+const btnBackToTop = document.getElementById('back-to-top');
+const scrollElements = document.querySelectorAll('.scroll-animation');
 
-function mostrarProjetos() {
-    projetosExtras.forEach(projeto => {
-        projeto.classList.add('mostrar-projeto')
+function showProjects() {
+    projectsExtras.forEach(project => {
+        project.classList.add('show-project')
     });
 
-    btnVerMais.classList.add('hidden');
-    btnVerMenos.classList.remove('hidden');
+    btnShowMore.classList.add('hidden');
+    btnShowLess.classList.remove('hidden');
 };
 
-function esconderProjetos() {
-    projetosExtras.forEach(projeto => {
-        projeto.classList.remove('mostrar-projeto')
+function hideProjects() {
+    projectsExtras.forEach(project => {
+        project.classList.remove('show-project')
     });
 
-    btnVerMais.classList.remove('hidden');
-    btnVerMenos.classList.add('hidden');
-
-    // secaoProjetos.scrollIntoView({
-    //     behavior: 'smooth',
-    //     block: 'start'
-    // });
+    btnShowMore.classList.remove('hidden');
+    btnShowLess.classList.add('hidden');
 };
 
-btnVerMais.addEventListener("click", mostrarProjetos);
+btnShowMore.addEventListener("click", showProjects);
 
-btnVerMenos.addEventListener("click", esconderProjetos);
+btnShowLess.addEventListener("click", hideProjects);
 
 window.addEventListener('scroll', () => {
     if(window.scrollY > 300) {
-        btnTopo.classList.remove('hidden');
+        btnBackToTop.classList.remove('hidden');
     } else {
-        btnTopo.classList.add('hidden');
+        btnBackToTop.classList.add('hidden');
     }
 });
 
-btnTopo.addEventListener('click', () => {
+btnBackToTop.addEventListener('click', () => {
     window.scrollTo({
         top: 0,
         behavior: 'smooth'
     });
 });
 
-const observer = new IntersectionObserver((entradas) => {
-    entradas.forEach(t => {
-        if(t.isIntersecting) {
-            t.target.classList.add('aparecer');
-            observer.unobserve(t.target);
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if(entry.isIntersecting) {
+            entry.target.classList.add('appear');
+            observer.unobserve(entry.target);
         }
     });
 }, {threshold: 0.2});
 
-elementos.forEach(el => observer.observe(el));
+scrollElements.forEach(el => observer.observe(el));
