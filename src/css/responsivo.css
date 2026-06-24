@@ -55,10 +55,6 @@
         font-size: 1rem;
     }
 
-    .projetos__texto {
-        font-size: 12px;
-    }
-
     .projetos__titulo-tecnologias {
         font-size: 14px;
     }
@@ -75,10 +71,6 @@
     .projetos__cartao-certificado {
         width: 17rem;
         height: 15rem;
-    }
-
-    .certificado__texto {
-        font-size: 12px;
     }
 
     .contatos__mensagem,
@@ -173,22 +165,8 @@
         width: 23rem;
     }
 
-
-    .projetos__informacoes {
-        height: 15rem;
-    }
-
-    .projetos__texto,
-    .certificados__texto {
-        font-size: 10px;
-    }
-
     .projetos__links {
         gap: 2rem;
-    }
-
-    .certificados__cartao {
-        height: 13rem;
     }
 }
 
