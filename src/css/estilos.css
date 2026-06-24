@@ -434,6 +434,7 @@ body {
 }
 
 .projetos__links {
+    display: flex;
     font-size: 12px;
     gap: 5rem;
     margin-top: auto;
