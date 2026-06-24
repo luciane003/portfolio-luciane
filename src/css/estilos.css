@@ -296,12 +296,9 @@ body {
 .projetos__cartao {
     background-color: #1f2a44;
     width: 26rem;
-    /* height: 32rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center;
-    /* text-align:center; */
     padding: 17px;
     border-radius: 20px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -313,23 +310,6 @@ body {
 .projetos__cartao:focus-within {
     transform: translateY(-10px);
 }
-
-/* .projetos__tecnologias,
-.habilidades__lista,
-.certificados__lista,
-.projetos__cartao-certificado,
-.conteudo-rodape,
-.lista-contatos {
-    gap: 20px;
-}
-
-.projetos__cartao--escondido {
-    display: none;
-}
-
-.mostrar-projeto {
-    display: flex;
-} */
 
 .animacao-scroll {
     opacity: 0;
@@ -408,14 +388,6 @@ body {
 .contatos__lista {
     gap: 20px;
 }
-
-/* .projetos__cartao--escondido {
-    display: none;
-}
-
-.mostrar-projeto {
-    display: flex;
-} */
 
 .html5-icone {
     color: #E34F26;
