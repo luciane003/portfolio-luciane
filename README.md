@@ -30,8 +30,16 @@ The application is fully responsive and focuses on clean UI, accessibility, and 
 
 ### 📸 Preview
 
+#### Primeira imagem
+
 <p>
   <img src="./src/images/portfolio-landing-page.png" width="600"/>
+</p>
+<br>
+
+#### Segunda imagem
+
+<p>
   <img src="./src/images/portfolio-landing-page-2.png" width="400"/>
 </p>
 
@@ -64,16 +72,21 @@ A aplicação é totalmente responsiva, com foco em interface limpa, acessibilid
 <p>
   <img alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" />
   <img alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" />
-   <img align="center" alt="javascript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
+  <img alt="javascript" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
 </p>   
 
 ### 📸 Prévia
 
-<p align="center">
+#### Primeira imagem
+
+<p>
   <img src="./src/images/portfolio-landing-page.png" width="600"/>
 </p>
+<br>
 
-<p align="center">
+#### Segunda imagem
+
+<p>
   <img src="./src/images/portfolio-landing-page-2.png" width="400"/>
 </p>
 
