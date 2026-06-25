@@ -35,7 +35,6 @@ The application is fully responsive and focuses on clean UI, accessibility, and 
 <p>
   <img src="./src/images/portfolio-landing-page.png" width="600"/>
 </p>
-<br>
 
 #### Segunda imagem
 
@@ -82,7 +81,6 @@ A aplicação é totalmente responsiva, com foco em interface limpa, acessibilid
 <p>
   <img src="./src/images/portfolio-landing-page.png" width="600"/>
 </p>
-<br>
 
 #### Segunda imagem
 
