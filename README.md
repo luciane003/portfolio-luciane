@@ -30,11 +30,8 @@ The application is fully responsive and focuses on clean UI, accessibility, and 
 
 ### 📸 Preview
 
-<p align="center">
+<p>
   <img src="./src/images/portfolio-landing-page.png" width="600"/>
-</p>
-
-<p align="center">
   <img src="./src/images/portfolio-landing-page-2.png" width="400"/>
 </p>
 
