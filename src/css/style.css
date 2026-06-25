@@ -70,8 +70,7 @@ body {
 .hero__resume a,
 .projects__link a,
 .certificates__card:focus-within,
-.certificates__button a,
-.seta-topo:focus {
+.certificates__button a {
     outline: none;
 }
 
