@@ -1,4 +1,3 @@
-// const secaoProjetos = document.getElementById('projetos');
 const projectsExtras = document.querySelectorAll('.projects__card--hidden');
 const btnShowMore = document.getElementById('button-more');
 const btnShowLess = document.getElementById("button-less");
